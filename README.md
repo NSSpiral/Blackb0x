@@ -5,17 +5,19 @@
 
 Untethered jailbreak tool that runs on modern versions of macOS.
 
-![Screen Shot 2021-07-07 at 9 49 07 pm](https://user-images.githubusercontent.com/32339783/124758042-8c1de500-df71-11eb-8db3-32a34e2ed3a2.png)
 
 Devices supported: 
 - Apple TV 3,2 (A1469) (iOS 8.4.x untethered, iOS 7.x tethered)
 - Apple TV 3,1 (A1427) (iOS 8.4.x untethered, iOS 7.x tethered)
 - Apple TV 2,1 (A1378) (iOS 7.1.2 tethered, iOS 6.1.4 untethered)
 
+![Screen Shot 2021-07-07 at 9 49 07 pm](https://user-images.githubusercontent.com/32339783/124758042-8c1de500-df71-11eb-8db3-32a34e2ed3a2.png)
+
 IMPORTANT: 
 Make sure your device is connected to the internet for the first boot. Do not turn off during first boot until Kodi appears.
 
 Steps to Jailbreak: 
+
 0. (3,1 Only) PWN with arduino+synackuk's fork of checkm8-A5
 1. Plug in your Apple TV via micro-USB
 2. Open Blackb0x

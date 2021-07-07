@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key></key>
+	<array>
+		<string></string>
+		<string></string>
+	</array>
+	<key>AppleLogo</key>
+	<array>
+		<string>d8059e911b6b669e6f9af982996c33b6</string>
+		<string>42be20f656fbd3a6b053977f7744005ec84331fbe8f134f341f46ae13e784745</string>
+	</array>
+	<key>DeviceTree</key>
+	<array>
+		<string>a9706396f5e36825d1c63b953882ab3e</string>
+		<string>998593e5855863273816aa696a380337676dda2bd7c6e7fadfb0ed3807ddfea6</string>
+	</array>
+	<key>Kernelcache</key>
+	<array>
+		<string>b73a21cedc067ae04ff562193d01e18d</string>
+		<string>8372a8c4395491b6dea87cc8c4f015dc1fcbde64e1aa20d49e6417bba9846a0d</string>
+	</array>
+	<key>LLB</key>
+	<array>
+		<string>2703a8bb44dbca256f44f1b8e5493e80</string>
+		<string>a0f52dd894d1248e7d1b1b5b0202be60ec4f6228361a1520546e65b27a515690</string>
+	</array>
+	<key>RecoveryMode</key>
+	<array>
+		<string>e03ab702452295d13a172072cc8d4977</string>
+		<string>74c4425184dadf1f0a53809cb730dbfbdda971c67735e14cb02e49f5a118a5ba</string>
+	</array>
+	<key>RestoreRamdisk</key>
+	<array>
+		<string>aa0a9d8f6e72b9da49f2f21cdecc8b8b</string>
+		<string>2cfe56f762295d6fa3a1acb20680185f84a54a29fe4716a0befd91b4c84e0509</string>
+	</array>
+	<key>RootFS</key>
+	<array>
+		<string></string>
+		<string>c4543b18e18f516b30cee305d1e0050d31184e1b82e0f842e600000f85dcff662e5e1c06</string>
+	</array>
+	<key>iBEC</key>
+	<array>
+		<string>117eae2d9c749d25669cfc13d4977d69</string>
+		<string>a68051d2be1e1d6d9b3b691b83d065452e06c193a3a621f42a895a1e63bc4e6c</string>
+	</array>
+	<key>iBSS</key>
+	<array>
+		<string>6cb7c3357f96cc4791a6b26974a47612</string>
+		<string>a97ee73bfa99dc4f380819dab0eda4035f3d6035c461fc294e99f03dc11a0494</string>
+	</array>
+	<key>iBoot</key>
+	<array>
+		<string>9ea99132bc8810698649e8af38061372</string>
+		<string>feabfff83756b1080c94cb2e39276a4c5111fad08c5dd305b57962b1701644f1</string>
+	</array>
+</dict>
+</plist>

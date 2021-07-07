@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+
+<dict>
+    <key>Label</key>
+    <string>com.openssh.sshd</string>
+
+    <key>Program</key>
+    <string>/usr/libexec/sshd-keygen-wrapper</string>
+
+    <key>RunAtLoad</key>
+    <true/>
+
+    <key>ProgramArguments</key>
+    <array>
+        <string>/usr/sbin/sshd</string>
+        <string>-i</string>
+    </array>
+
+    <key>SessionCreate</key>
+    <true/>
+
+    <key>Sockets</key>
+    <dict>
+        <key>Listeners</key>
+        <dict>
+            <key>Bonjour</key>
+            <array>
+                <string>ssh</string>
+                <string>sftp-ssh</string>
+            </array>
+
+            <key>SockServiceName</key>
+            <string>ssh</string>
+        </dict>
+    </dict>
+
+    <key>StandardErrorPath</key>
+    <string>/dev/null</string>
+
+    <key>inetdCompatibility</key>
+    <dict>
+        <key>Wait</key>
+        <false/>
+    </dict>
+</dict>
+
+</plist>

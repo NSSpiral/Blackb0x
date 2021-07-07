@@ -1,0 +1,27 @@
+//
+//  PrefixHeader.pch
+//  Blackb0x
+//
+//  Created by spiral on 17/9/20.
+//  Copyright © 2020 spiral. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+//#import "crossover.h"
+#import "libprerestore.h"
+
+//#include <libirecovery.h>
+//#include "libirecovery.h"
+
+#include <libimobiledevice/libimobiledevice.h>
+#include <libimobiledevice/afc.h>
+#include <libimobiledevice/lockdown.h>
+#include <libimobiledevice/diagnostics_relay.h>
+
+
+
+#endif /* PrefixHeader_pch */

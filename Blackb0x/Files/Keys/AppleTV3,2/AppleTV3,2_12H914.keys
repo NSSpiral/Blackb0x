@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AppleLogo</key>
+	<array>
+		<string></string>
+		<string></string>
+	</array>
+	<key>DeviceTree</key>
+	<array>
+		<string></string>
+		<string></string>
+	</array>
+	<key>Kernelcache</key>
+	<array>
+		<string></string>
+		<string></string>
+	</array>
+	<key>LLB</key>
+	<array>
+		<string></string>
+		<string></string>
+	</array>
+	<key>RecoveryMode</key>
+	<array>
+		<string></string>
+		<string></string>
+	</array>
+	<key>RestoreRamdisk</key>
+	<array>
+		<string>757b26dfd60962f743b71bd186a13356</string>
+		<string>d3bf469efa764dd6a94f5187fa77ec81dd9db3fcd6522f693e609d1c2e72c3a7</string>
+	</array>
+	<key>RootFileSystem</key>
+	<array>
+		<string></string>
+		<string>4315c1f21b44c10308688bd0fe677d3be76ed88339e1ce482a2ed2f0f722eabc63e858d2</string>
+	</array>
+	<key>iBEC</key>
+	<array>
+		<string></string>
+		<string></string>
+	</array>
+	<key>iBSS</key>
+	<array>
+		<string></string>
+		<string></string>
+	</array>
+	<key>iBoot</key>
+	<array>
+		<string></string>
+		<string></string>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AppleLogo</key>
+	<array>
+		<string>b5c9e90b620ac44baabab3805826416a</string>
+		<string>0243427022cfe2497f60723bf4266baf2361b55c76dcbcff041c28a5a8aae8e7</string>
+	</array>
+	<key>DeviceTree</key>
+	<array>
+		<string>8017a44fe852f94c6f03671d276986a4</string>
+		<string>500e8f1eb309c1d04e55d006029331777afd9b7e53b583c9ca9ad295c1ee6bc6</string>
+	</array>
+	<key>Kernelcache</key>
+	<array>
+		<string>a60c860ab585f83118326be4c3371206</string>
+		<string>b87236ec59002690501f73e1be53141cab552fb8b44faee49a5e62ffc01b693d</string>
+	</array>
+	<key>LLB</key>
+	<array>
+		<string>e437498d79f21bb4cb702fa3fbf421f9</string>
+		<string>8ac76108f61b57d17fb50cc47a47fc283aa0f99c20643eb531f69b97a2d37587</string>
+	</array>
+	<key>RecoveryMode</key>
+	<array>
+		<string>198a7fa87f6900face9e0f17647a2b05</string>
+		<string>cab4a51dcfa6a39d3ace9a34a1582db453ae6dbab76ee6ea316ea8b3b88aa1c1</string>
+	</array>
+	<key>RestoreRamdisk</key>
+	<array>
+		<string>6f26f8bb52d0bdbc1883c9119ea637b2</string>
+		<string>fc72461fc7e21d1f7e443747dce2924db73de1ea222d35b35e6fb318a8e965e4</string>
+	</array>
+	<key>RootFileSystem</key>
+	<array>
+		<string></string>
+		<string>9ce2d49046013d5376d017d28648a858eeae27c0f33c5f2f8e0f5f2e6e906c8a</string>
+	</array>
+	<key>iBEC</key>
+	<array>
+		<string>83b475709ef29957fda4c6bae148d008</string>
+		<string>fd67b691658dbe90dba9b2c69d5df622a8fd803928e66dd4a7b549a819b73616</string>
+	</array>
+	<key>iBSS</key>
+	<array>
+		<string>c4868fda813b6bce6cff7f8da7f3ecbb</string>
+		<string>4afa5607c852f431460d275e6ecbc3ee0e5e5692cddc439cfcbc4094e324d84f</string>
+	</array>
+	<key>iBoot</key>
+	<array>
+		<string>146fd40db3587e8bd9a0977e309faaf9</string>
+		<string>551b36ce6cfe7b4a7eff93978afa7ae1f0fc06c5ec99015c18a7b4c524cb13b5</string>
+	</array>
+</dict>
+</plist>

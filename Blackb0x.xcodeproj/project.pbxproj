@@ -1,0 +1,1081 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D06D5692555C65E00079DF5 /* kodi.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D06D5672555C65E00079DF5 /* kodi.png */; };
+		4D06D56A2555C65E00079DF5 /* nito.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D06D5682555C65E00079DF5 /* nito.png */; };
+		4D0F9A9025431A60004C4154 /* awkwardtv.gpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D0F9A8A25431A60004C4154 /* awkwardtv.gpg */; };
+		4D0F9A9325431A60004C4154 /* xbmc.list in Resources */ = {isa = PBXBuildFile; fileRef = 4D0F9A8D25431A60004C4154 /* xbmc.list */; };
+		4D0F9A9425431A60004C4154 /* awkwardtv.list in Resources */ = {isa = PBXBuildFile; fileRef = 4D0F9A8E25431A60004C4154 /* awkwardtv.list */; };
+		4D1993FA259B8958002D14FA /* .blackb0x in Resources */ = {isa = PBXBuildFile; fileRef = 4D1993F9259B8958002D14FA /* .blackb0x */; };
+		4D1A1AE625C88E4200447E34 /* AppleTV3,1_12D508.keys in Resources */ = {isa = PBXBuildFile; fileRef = 4D1A1A8825C88E4200447E34 /* AppleTV3,1_12D508.keys */; };
+		4D1A1AE725C88E4200447E34 /* AppleTV3,1_12H911.keys in Resources */ = {isa = PBXBuildFile; fileRef = 4D1A1A8925C88E4200447E34 /* AppleTV3,1_12H911.keys */; };
+		4D1A1AE825C88E4200447E34 /* AppleTV3,1_11A502.keys in Resources */ = {isa = PBXBuildFile; fileRef = 4D1A1A8A25C88E4200447E34 /* AppleTV3,1_11A502.keys */; };
+		4D1A1AE925C88E4200447E34 /* AppleTV3,1_11B554a.keys in Resources */ = {isa = PBXBuildFile; fileRef = 4D1A1A8B25C88E4200447E34 /* AppleTV3,1_11B554a.keys */; };
+		4D1A1AEA25C88E4200447E34 /* AppleTV3,1_10A831.keys in Resources */ = {isa = PBXBuildFile; fileRef = 4D1A1A8C25C88E4200447E34 /* AppleTV3,1_10A831.keys */; };
+		4D1A1AEB25C88E4200447E34 /* AppleTV3,1_11A470e.keys in Resources */ = {isa = PBXBuildFile; fileRef = 4D1A1A8D25C88E4200447E34 /* AppleTV3,1_11A470e.keys */; };
+		4D1A1AEC25C88E4200447E34 /* AppleTV3,1_12H864.keys in Resources */ = {isa = PBXBuildFile; fileRef = 4D1A1A8E25C88E4200447E34 /* AppleTV3,1_12H864.keys */; };
+		4D1A1AED25C88E4200447E34 /* AppleTV3,1_9B179b.keys in Resources */ = {isa = PBXBuildFile; fileRef = 4D1A1A8F25C88E4200447E34 /* AppleTV3,1_9B179b.keys */; };
+		4D1A1AEE25C88E4200447E34 /* AppleTV3,1_12B435.keys in Resources */ = {isa = PBXBuildFile; fileRef = 4D1A1A9025C88E4200447E34 /* AppleTV3,1_12B435.keys */; };
+		4D1A1AEF25C88E4200447E34 /* AppleTV3,1_11D257c.keys in Resources */ = {isa = PBXBuildFile; fileRef = 4D1A1A9125C88E4200447E34 /* AppleTV3,1_11D257c.keys */; };
+		4D1A1AF025C88E4200447E34 /* AppleTV3,1_11B651.keys in Resources */ = {isa = PBXBuildFile; fileRef = 4D1A1A9225C88E4200447E34 /* AppleTV3,1_11B651.keys */; };
+		4D1A1AF125C88E4200447E34 /* AppleTV3,1_11D169b.keys in Resources */ = {isa = PBXBuildFile; fileRef = 4D1A1A9325C88E4200447E34 /* AppleTV3,1_11D169b.keys */; };
+		4D1A1AF225C88E4200447E34 /* AppleTV3,1_11B511d.keys in Resources */ = {isa = PBXBuildFile; fileRef = 4D1A1A9425C88E4200447E34 /* AppleTV3,1_11B511d.keys */; };
+		4D1A1AF325C88E4200447E34 /* AppleTV3,1_12H523.keys in Resources */ = {isa = PBXBuildFile; fileRef = 4D1A1A9525C88E4200447E34 /* AppleTV3,1_12H523.keys */; };
+		4D1A1AF425C88E4200447E34 /* AppleTV3,1_12B410a.keys in Resources */ = {isa = PBXBuildFile; fileRef = 4D1A1A9625C88E4200447E34 /* AppleTV3,1_12B410a.keys */; };
+		4D1A1AF525C88E4200447E34 /* AppleTV3,1_11D201c.keys in Resources */ = {isa = PBXBuildFile; fileRef = 4D1A1A9725C88E4200447E34 /* AppleTV3,1_11D201c.keys */; };
+		4D1A1AF625C88E4200447E34 /* AppleTV3,1_10A406e.keys in Resources */ = {isa = PBXBuildFile; fileRef = 4D1A1A9825C88E4200447E34 /* AppleTV3,1_10A406e.keys */; };
+		4D1A1AF725C88E4200447E34 /* AppleTV3,1_9B830.keys in Resources */ = {isa = PBXBuildFile; fileRef = 4D1A1A9925C88E4200447E34 /* AppleTV3,1_9B830.keys */; };
+		4D1A1AF825C88E4200447E34 /* AppleTV3,1_12H903.keys in Resources */ = {isa = PBXBuildFile; fileRef = 4D1A1A9A25C88E4200447E34 /* AppleTV3,1_12H903.keys */; };
+		4D1A1AF925C88E4200447E34 /* AppleTV3,1_12H606.keys in Resources */ = {isa = PBXBuildFile; fileRef = 4D1A1A9B25C88E4200447E34 /* AppleTV3,1_12H606.keys */; };
+		4D1A1AFA25C88E4200447E34 /* AppleTV3,1_12H885.keys in Resources */ = {isa = PBXBuildFile; fileRef = 4D1A1A9C25C88E4200447E34 /* AppleTV3,1_12H885.keys */; };
+		4D1A1AFB25C88E4200447E34 /* AppleTV3,1_10B329a.keys in Resources */ = {isa = PBXBuildFile; fileRef = 4D1A1A9D25C88E4200447E34 /* AppleTV3,1_10B329a.keys */; };
+		4D1A1AFC25C88E4200447E34 /* AppleTV3,1_12H914.keys in Resources */ = {isa = PBXBuildFile; fileRef = 4D1A1A9E25C88E4200447E34 /* AppleTV3,1_12H914.keys */; };
+		4D1A1AFD25C88E4200447E34 /* AppleTV3,1_12H847.keys in Resources */ = {isa = PBXBuildFile; fileRef = 4D1A1A9F25C88E4200447E34 /* AppleTV3,1_12H847.keys */; };
+		4D1A1AFE25C88E4200447E34 /* AppleTV3,1_10B809.keys in Resources */ = {isa = PBXBuildFile; fileRef = 4D1A1AA025C88E4200447E34 /* AppleTV3,1_10B809.keys */; };
+		4D1A1AFF25C88E4200447E34 /* AppleTV3,1_10B144b.keys in Resources */ = {isa = PBXBuildFile; fileRef = 4D1A1AA125C88E4200447E34 /* AppleTV3,1_10B144b.keys */; };
+		4D1A1B0025C88E4200447E34 /* AppleTV3,1_12B466.keys in Resources */ = {isa = PBXBuildFile; fileRef = 4D1A1AA225C88E4200447E34 /* AppleTV3,1_12B466.keys */; };
+		4D1A1B0125C88E4200447E34 /* AppleTV3,1_12H876.keys in Resources */ = {isa = PBXBuildFile; fileRef = 4D1A1AA325C88E4200447E34 /* AppleTV3,1_12H876.keys */; };
+		4D1A1B0225C88E4200447E34 /* AppleTV3,1_12A365b.keys in Resources */ = {isa = PBXBuildFile; fileRef = 4D1A1AA425C88E4200447E34 /* AppleTV3,1_12A365b.keys */; };
+		4D1A1B0325C88E4200447E34 /* AppleTV3,1_12F69.keys in Resources */ = {isa = PBXBuildFile; fileRef = 4D1A1AA525C88E4200447E34 /* AppleTV3,1_12F69.keys */; };
+		4D1A1B0425C88E4200447E34 /* AppleTV3,1_9B206f.keys in Resources */ = {isa = PBXBuildFile; fileRef = 4D1A1AA625C88E4200447E34 /* AppleTV3,1_9B206f.keys */; };
+		4D1A1B0525C88E4200447E34 /* AppleTV2,1_9A405l.keys in Resources */ = {isa = PBXBuildFile; fileRef = 4D1A1AA825C88E4200447E34 /* AppleTV2,1_9A405l.keys */; };
+		4D1A1B0625C88E4200447E34 /* AppleTV2,1_11A470e.keys in Resources */ = {isa = PBXBuildFile; fileRef = 4D1A1AA925C88E4200447E34 /* AppleTV2,1_11A470e.keys */; };
+		4D1A1B0725C88E4200447E34 /* AppleTV2,1_9B206f.keys in Resources */ = {isa = PBXBuildFile; fileRef = 4D1A1AAA25C88E4200447E34 /* AppleTV2,1_9B206f.keys */; };
+		4D1A1B0825C88E4200447E34 /* AppleTV2,1_11B554a.keys in Resources */ = {isa = PBXBuildFile; fileRef = 4D1A1AAB25C88E4200447E34 /* AppleTV2,1_11B554a.keys */; };
+		4D1A1B0925C88E4200447E34 /* AppleTV2,1_9A335a.keys in Resources */ = {isa = PBXBuildFile; fileRef = 4D1A1AAC25C88E4200447E34 /* AppleTV2,1_9A335a.keys */; };
+		4D1A1B0A25C88E4200447E34 /* AppleTV2,1_8F191m.keys in Resources */ = {isa = PBXBuildFile; fileRef = 4D1A1AAD25C88E4200447E34 /* AppleTV2,1_8F191m.keys */; };
+		4D1A1B0B25C88E4200447E34 /* AppleTV2,1_11D169b.keys in Resources */ = {isa = PBXBuildFile; fileRef = 4D1A1AAE25C88E4200447E34 /* AppleTV2,1_11D169b.keys */; };
+		4D1A1B0C25C88E4200447E34 /* AppleTV2,1_9A336a.keys in Resources */ = {isa = PBXBuildFile; fileRef = 4D1A1AAF25C88E4200447E34 /* AppleTV2,1_9A336a.keys */; };
+		4D1A1B0D25C88E4200447E34 /* AppleTV2,1_10B809.keys in Resources */ = {isa = PBXBuildFile; fileRef = 4D1A1AB025C88E4200447E34 /* AppleTV2,1_10B809.keys */; };
+		4D1A1B0E25C88E4200447E34 /* AppleTV2,1_8C150.keys in Resources */ = {isa = PBXBuildFile; fileRef = 4D1A1AB125C88E4200447E34 /* AppleTV2,1_8C150.keys */; };
+		4D1A1B0F25C88E4200447E34 /* AppleTV2,1_8F305.keys in Resources */ = {isa = PBXBuildFile; fileRef = 4D1A1AB225C88E4200447E34 /* AppleTV2,1_8F305.keys */; };
+		4D1A1B1025C88E4200447E34 /* AppleTV2,1_11D257c.keys in Resources */ = {isa = PBXBuildFile; fileRef = 4D1A1AB325C88E4200447E34 /* AppleTV2,1_11D257c.keys */; };
+		4D1A1B1125C88E4200447E34 /* AppleTV2,1_9A406a.keys in Resources */ = {isa = PBXBuildFile; fileRef = 4D1A1AB425C88E4200447E34 /* AppleTV2,1_9A406a.keys */; };
+		4D1A1B1225C88E4200447E34 /* AppleTV2,1_11B651.keys in Resources */ = {isa = PBXBuildFile; fileRef = 4D1A1AB525C88E4200447E34 /* AppleTV2,1_11B651.keys */; };
+		4D1A1B1325C88E4200447E34 /* AppleTV2,1_8M89.keys in Resources */ = {isa = PBXBuildFile; fileRef = 4D1A1AB625C88E4200447E34 /* AppleTV2,1_8M89.keys */; };
+		4D1A1B1425C88E4200447E34 /* AppleTV2,1_9A334v.keys in Resources */ = {isa = PBXBuildFile; fileRef = 4D1A1AB725C88E4200447E34 /* AppleTV2,1_9A334v.keys */; };
+		4D1A1B1525C88E4200447E34 /* AppleTV2,1_10B329a.keys in Resources */ = {isa = PBXBuildFile; fileRef = 4D1A1AB825C88E4200447E34 /* AppleTV2,1_10B329a.keys */; };
+		4D1A1B1625C88E4200447E34 /* AppleTV2,1_10A406e.keys in Resources */ = {isa = PBXBuildFile; fileRef = 4D1A1AB925C88E4200447E34 /* AppleTV2,1_10A406e.keys */; };
+		4D1A1B1725C88E4200447E34 /* AppleTV2,1_8F202.keys in Resources */ = {isa = PBXBuildFile; fileRef = 4D1A1ABA25C88E4200447E34 /* AppleTV2,1_8F202.keys */; };
+		4D1A1B1825C88E4200447E34 /* AppleTV2,1_9B179b.keys in Resources */ = {isa = PBXBuildFile; fileRef = 4D1A1ABB25C88E4200447E34 /* AppleTV2,1_9B179b.keys */; };
+		4D1A1B1925C88E4200447E34 /* AppleTV2,1_11D201c.keys in Resources */ = {isa = PBXBuildFile; fileRef = 4D1A1ABC25C88E4200447E34 /* AppleTV2,1_11D201c.keys */; };
+		4D1A1B1A25C88E4200447E34 /* AppleTV2,1_9B830.keys in Resources */ = {isa = PBXBuildFile; fileRef = 4D1A1ABD25C88E4200447E34 /* AppleTV2,1_9B830.keys */; };
+		4D1A1B1B25C88E4200447E34 /* AppleTV2,1_11B511d.keys in Resources */ = {isa = PBXBuildFile; fileRef = 4D1A1ABE25C88E4200447E34 /* AppleTV2,1_11B511d.keys */; };
+		4D1A1B1C25C88E4200447E34 /* AppleTV2,1_8C154.keys in Resources */ = {isa = PBXBuildFile; fileRef = 4D1A1ABF25C88E4200447E34 /* AppleTV2,1_8C154.keys */; };
+		4D1A1B1D25C88E4200447E34 /* AppleTV2,1_10A831.keys in Resources */ = {isa = PBXBuildFile; fileRef = 4D1A1AC025C88E4200447E34 /* AppleTV2,1_10A831.keys */; };
+		4D1A1B1E25C88E4200447E34 /* AppleTV2,1_11A502.keys in Resources */ = {isa = PBXBuildFile; fileRef = 4D1A1AC125C88E4200447E34 /* AppleTV2,1_11A502.keys */; };
+		4D1A1B1F25C88E4200447E34 /* AppleTV2,1_8F455.keys in Resources */ = {isa = PBXBuildFile; fileRef = 4D1A1AC225C88E4200447E34 /* AppleTV2,1_8F455.keys */; };
+		4D1A1B2025C88E4200447E34 /* AppleTV2,1_11D258.keys in Resources */ = {isa = PBXBuildFile; fileRef = 4D1A1AC325C88E4200447E34 /* AppleTV2,1_11D258.keys */; };
+		4D1A1B2125C88E4200447E34 /* AppleTV2,1_10B144b.keys in Resources */ = {isa = PBXBuildFile; fileRef = 4D1A1AC425C88E4200447E34 /* AppleTV2,1_10B144b.keys */; };
+		4D1A1B2225C88E4200447E34 /* AppleTV3,2_10B144b.keys in Resources */ = {isa = PBXBuildFile; fileRef = 4D1A1AC625C88E4200447E34 /* AppleTV3,2_10B144b.keys */; };
+		4D1A1B2325C88E4200447E34 /* AppleTV3,2_11B651.keys in Resources */ = {isa = PBXBuildFile; fileRef = 4D1A1AC725C88E4200447E34 /* AppleTV3,2_11B651.keys */; };
+		4D1A1B2425C88E4200447E34 /* AppleTV3,2_12F69.keys in Resources */ = {isa = PBXBuildFile; fileRef = 4D1A1AC825C88E4200447E34 /* AppleTV3,2_12F69.keys */; };
+		4D1A1B2525C88E4200447E34 /* AppleTV3,2_10B806.keys in Resources */ = {isa = PBXBuildFile; fileRef = 4D1A1AC925C88E4200447E34 /* AppleTV3,2_10B806.keys */; };
+		4D1A1B2625C88E4200447E34 /* AppleTV3,2_12B435.keys in Resources */ = {isa = PBXBuildFile; fileRef = 4D1A1ACA25C88E4200447E34 /* AppleTV3,2_12B435.keys */; };
+		4D1A1B2725C88E4200447E34 /* AppleTV3,2_12A365b.keys in Resources */ = {isa = PBXBuildFile; fileRef = 4D1A1ACB25C88E4200447E34 /* AppleTV3,2_12A365b.keys */; };
+		4D1A1B2825C88E4200447E34 /* AppleTV3,2_12H864.keys in Resources */ = {isa = PBXBuildFile; fileRef = 4D1A1ACC25C88E4200447E34 /* AppleTV3,2_12H864.keys */; };
+		4D1A1B2925C88E4200447E34 /* AppleTV3,2_12B410a.keys in Resources */ = {isa = PBXBuildFile; fileRef = 4D1A1ACD25C88E4200447E34 /* AppleTV3,2_12B410a.keys */; };
+		4D1A1B2A25C88E4200447E34 /* AppleTV3,2_11D201c.keys in Resources */ = {isa = PBXBuildFile; fileRef = 4D1A1ACE25C88E4200447E34 /* AppleTV3,2_11D201c.keys */; };
+		4D1A1B2B25C88E4200447E34 /* AppleTV3,2_11B511d.keys in Resources */ = {isa = PBXBuildFile; fileRef = 4D1A1ACF25C88E4200447E34 /* AppleTV3,2_11B511d.keys */; };
+		4D1A1B2C25C88E4200447E34 /* AppleTV3,2_12A402.keys in Resources */ = {isa = PBXBuildFile; fileRef = 4D1A1AD025C88E4200447E34 /* AppleTV3,2_12A402.keys */; };
+		4D1A1B2D25C88E4200447E34 /* AppleTV3,2_11D257a.keys in Resources */ = {isa = PBXBuildFile; fileRef = 4D1A1AD125C88E4200447E34 /* AppleTV3,2_11D257a.keys */; };
+		4D1A1B2E25C88E4200447E34 /* AppleTV3,2_11A469a.keys in Resources */ = {isa = PBXBuildFile; fileRef = 4D1A1AD225C88E4200447E34 /* AppleTV3,2_11A469a.keys */; };
+		4D1A1B2F25C88E4200447E34 /* AppleTV3,2_10B329a.keys in Resources */ = {isa = PBXBuildFile; fileRef = 4D1A1AD325C88E4200447E34 /* AppleTV3,2_10B329a.keys */; };
+		4D1A1B3025C88E4200447E34 /* AppleTV3,2_11A502.keys in Resources */ = {isa = PBXBuildFile; fileRef = 4D1A1AD425C88E4200447E34 /* AppleTV3,2_11A502.keys */; };
+		4D1A1B3125C88E4200447E34 /* AppleTV3,2_12H911.keys in Resources */ = {isa = PBXBuildFile; fileRef = 4D1A1AD525C88E4200447E34 /* AppleTV3,2_12H911.keys */; };
+		4D1A1B3225C88E4200447E34 /* AppleTV3,2_11D201b.keys in Resources */ = {isa = PBXBuildFile; fileRef = 4D1A1AD625C88E4200447E34 /* AppleTV3,2_11D201b.keys */; };
+		4D1A1B3325C88E4200447E34 /* AppleTV3,2_12D508.keys in Resources */ = {isa = PBXBuildFile; fileRef = 4D1A1AD725C88E4200447E34 /* AppleTV3,2_12D508.keys */; };
+		4D1A1B3425C88E4200447E34 /* AppleTV3,2_11D257c.keys in Resources */ = {isa = PBXBuildFile; fileRef = 4D1A1AD825C88E4200447E34 /* AppleTV3,2_11D257c.keys */; };
+		4D1A1B3525C88E4200447E34 /* AppleTV3,2_12H876.keys in Resources */ = {isa = PBXBuildFile; fileRef = 4D1A1AD925C88E4200447E34 /* AppleTV3,2_12H876.keys */; };
+		4D1A1B3625C88E4200447E34 /* AppleTV3,2_11D257b.keys in Resources */ = {isa = PBXBuildFile; fileRef = 4D1A1ADA25C88E4200447E34 /* AppleTV3,2_11D257b.keys */; };
+		4D1A1B3725C88E4200447E34 /* AppleTV3,2_11D169b.keys in Resources */ = {isa = PBXBuildFile; fileRef = 4D1A1ADB25C88E4200447E34 /* AppleTV3,2_11D169b.keys */; };
+		4D1A1B3825C88E4200447E34 /* AppleTV3,2_12B466.keys in Resources */ = {isa = PBXBuildFile; fileRef = 4D1A1ADC25C88E4200447E34 /* AppleTV3,2_12B466.keys */; };
+		4D1A1B3925C88E4200447E34 /* AppleTV3,2_10B809.keys in Resources */ = {isa = PBXBuildFile; fileRef = 4D1A1ADD25C88E4200447E34 /* AppleTV3,2_10B809.keys */; };
+		4D1A1B3A25C88E4200447E34 /* AppleTV3,2_12H847.keys in Resources */ = {isa = PBXBuildFile; fileRef = 4D1A1ADE25C88E4200447E34 /* AppleTV3,2_12H847.keys */; };
+		4D1A1B3B25C88E4200447E34 /* AppleTV3,2_12H914.keys in Resources */ = {isa = PBXBuildFile; fileRef = 4D1A1ADF25C88E4200447E34 /* AppleTV3,2_12H914.keys */; };
+		4D1A1B3C25C88E4200447E34 /* AppleTV3,2_12H885.keys in Resources */ = {isa = PBXBuildFile; fileRef = 4D1A1AE025C88E4200447E34 /* AppleTV3,2_12H885.keys */; };
+		4D1A1B3D25C88E4200447E34 /* AppleTV3,2_12H606.keys in Resources */ = {isa = PBXBuildFile; fileRef = 4D1A1AE125C88E4200447E34 /* AppleTV3,2_12H606.keys */; };
+		4D1A1B3E25C88E4200447E34 /* AppleTV3,2_11B554a.keys in Resources */ = {isa = PBXBuildFile; fileRef = 4D1A1AE225C88E4200447E34 /* AppleTV3,2_11B554a.keys */; };
+		4D1A1B3F25C88E4200447E34 /* AppleTV3,2_12H903.keys in Resources */ = {isa = PBXBuildFile; fileRef = 4D1A1AE325C88E4200447E34 /* AppleTV3,2_12H903.keys */; };
+		4D1A1B4025C88E4200447E34 /* AppleTV3,2_12H523.keys in Resources */ = {isa = PBXBuildFile; fileRef = 4D1A1AE425C88E4200447E34 /* AppleTV3,2_12H523.keys */; };
+		4D1A1B4125C88E4200447E34 /* AppleTV3,2_11A470e.keys in Resources */ = {isa = PBXBuildFile; fileRef = 4D1A1AE525C88E4200447E34 /* AppleTV3,2_11A470e.keys */; };
+		4D28C38A257EEB75003CE2AE /* setup.sh in Resources */ = {isa = PBXBuildFile; fileRef = 4D28C388257EEB75003CE2AE /* setup.sh */; };
+		4D38837D2695960600659966 /* TaskManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3883792695960500659966 /* TaskManager.m */; };
+		4D38837E2695960600659966 /* Patcher.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4D38837B2695960600659966 /* Patcher.mm */; };
+		4D3883812695A37000659966 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3883802695A37000659966 /* AppDelegate.m */; };
+		4D3883982695C62700659966 /* libbootkit.c in Sources */ = {isa = PBXBuildFile; fileRef = 4D3883942695C62700659966 /* libbootkit.c */; };
+		4D3883992695C62700659966 /* rules.mk in Resources */ = {isa = PBXBuildFile; fileRef = 4D3883952695C62700659966 /* rules.mk */; };
+		4D38839B2695C71A00659966 /* CBPatcher.c in Sources */ = {isa = PBXBuildFile; fileRef = 4D3883842695C5FC00659966 /* CBPatcher.c */; };
+		4D38839C2695C7B300659966 /* libiboot32patcher.c in Sources */ = {isa = PBXBuildFile; fileRef = 4D3883882695C5FC00659966 /* libiboot32patcher.c */; };
+		4D38839D2695C7B900659966 /* xpwntool.c in Sources */ = {isa = PBXBuildFile; fileRef = 4D3883832695C5FC00659966 /* xpwntool.c */; };
+		4D3E5EA82541C68A00577985 /* ATV-Cydia.tgz in Resources */ = {isa = PBXBuildFile; fileRef = 4D3E5EA72541C68A00577985 /* ATV-Cydia.tgz */; };
+		4D59A77125220B800034FC6B /* atv-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D59A77025220B800034FC6B /* atv-icon.png */; };
+		4D5DF5DA255DA45500D7D363 /* fstab.atv in Resources */ = {isa = PBXBuildFile; fileRef = 4D5DF5D9255DA45500D7D363 /* fstab.atv */; };
+		4D5E496B251118C0009D7111 /* Blackb0x.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D5E496A251118C0009D7111 /* Blackb0x.m */; };
+		4D632F8A2510298600AA170E /* DeviceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D632F892510298600AA170E /* DeviceManager.m */; };
+		4D632F8D251029BB00AA170E /* IPSW.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4D632F8C251029BB00AA170E /* IPSW.mm */; };
+		4D71C7C5258680E00003EAC6 /* remote.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D71C7C4258680E00003EAC6 /* remote.png */; };
+		4D776FD725143BA800E56359 /* IPSWDownloader.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4D776FD625143BA800E56359 /* IPSWDownloader.mm */; };
+		4D8905C8251E332E008F71B3 /* MainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8905C7251E332E008F71B3 /* MainView.m */; };
+		4D94F7612540EB9B007A5D15 /* RamdiskBins.tar in Resources */ = {isa = PBXBuildFile; fileRef = 4D94F75D2540EB9B007A5D15 /* RamdiskBins.tar */; };
+		4D94F7632540EB9B007A5D15 /* Debs.tar in Resources */ = {isa = PBXBuildFile; fileRef = 4D94F75F2540EB9B007A5D15 /* Debs.tar */; };
+		4D94F7642540EB9B007A5D15 /* ssh.tar in Resources */ = {isa = PBXBuildFile; fileRef = 4D94F7602540EB9B007A5D15 /* ssh.tar */; };
+		4D94F7752540EF8E007A5D15 /* libxpwntool.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D94F7672540EF8E007A5D15 /* libxpwntool.a */; };
+		4D94F7762540EF8E007A5D15 /* libssl.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D94F7682540EF8E007A5D15 /* libssl.dylib */; };
+		4D94F7772540EF8E007A5D15 /* libzip.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D94F7692540EF8E007A5D15 /* libzip.dylib */; };
+		4D94F7782540EF8E007A5D15 /* libusbmuxd.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D94F76A2540EF8E007A5D15 /* libusbmuxd.dylib */; };
+		4D94F7792540EF8E007A5D15 /* libcbpatcher.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D94F76B2540EF8E007A5D15 /* libcbpatcher.a */; };
+		4D94F77B2540EF8E007A5D15 /* libcurl.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D94F76D2540EF8E007A5D15 /* libcurl.dylib */; };
+		4D94F77C2540EF8E007A5D15 /* libplist.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D94F76E2540EF8E007A5D15 /* libplist.dylib */; };
+		4D94F77D2540EF8E007A5D15 /* libiboot32patcher.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D94F76F2540EF8E007A5D15 /* libiboot32patcher.a */; };
+		4D94F77E2540EF8E007A5D15 /* libfragmentzip.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D94F7702540EF8E007A5D15 /* libfragmentzip.dylib */; };
+		4D94F7802540EF8E007A5D15 /* libcrypto.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D94F7722540EF8E007A5D15 /* libcrypto.dylib */; };
+		4D94F7812540EFE4007A5D15 /* libcrypto.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 4D94F7722540EF8E007A5D15 /* libcrypto.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		4D94F7822540EFE5007A5D15 /* libcurl.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 4D94F76D2540EF8E007A5D15 /* libcurl.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		4D94F7832540EFE6007A5D15 /* libfragmentzip.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 4D94F7702540EF8E007A5D15 /* libfragmentzip.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		4D94F7862540EFEA007A5D15 /* libplist.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 4D94F76E2540EF8E007A5D15 /* libplist.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		4D94F7872540EFEB007A5D15 /* libssl.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 4D94F7682540EF8E007A5D15 /* libssl.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		4D94F7882540EFED007A5D15 /* libusbmuxd.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 4D94F76A2540EF8E007A5D15 /* libusbmuxd.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		4D94F7892540EFEE007A5D15 /* libzip.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 4D94F7692540EF8E007A5D15 /* libzip.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		4DAA7B8F2653346300956125 /* libirecovery.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DB1CAC526524765006B560E /* libirecovery.3.dylib */; };
+		4DAA7B902653346300956125 /* libirecovery.3.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 4DB1CAC526524765006B560E /* libirecovery.3.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		4DAA7B912653346B00956125 /* libirecovery.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D466DDA25F686E000EA1FFB /* libirecovery.a */; };
+		4DAC8FA7251009DD00B90906 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DAC8FA6251009DD00B90906 /* Assets.xcassets */; };
+		4DAC8FAA251009DD00B90906 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DAC8FA8251009DD00B90906 /* MainMenu.xib */; };
+		4DAC8FAD251009DD00B90906 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAC8FAC251009DD00B90906 /* main.m */; };
+		4DBD949E2560B13100252435 /* profile in Resources */ = {isa = PBXBuildFile; fileRef = 4DBD949D2560B13100252435 /* profile */; };
+		4DC02397259D293900FCDEAA /* com.blackb0x.postinstall.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4DC02395259D293900FCDEAA /* com.blackb0x.postinstall.plist */; };
+		4DC02398259D293900FCDEAA /* com.openssh.sshd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4DC02396259D293900FCDEAA /* com.openssh.sshd.plist */; };
+		4DCAACD825A2321E0058FA9B /* p0sixspwn.tgz in Resources */ = {isa = PBXBuildFile; fileRef = 4DCAACD725A2321E0058FA9B /* p0sixspwn.tgz */; };
+		4DF1DAEC261865AF00B242A0 /* tihmstar-untether.tar in Resources */ = {isa = PBXBuildFile; fileRef = 4DF1DAEB261865AF00B242A0 /* tihmstar-untether.tar */; };
+		4DF1DAEE2618779600B242A0 /* rtbuddyd.bin in Resources */ = {isa = PBXBuildFile; fileRef = 4DF1DAED2618779600B242A0 /* rtbuddyd.bin */; };
+		4DFEFE8A254A26890092FF6E /* launchd in Resources */ = {isa = PBXBuildFile; fileRef = 4DFEFE89254A26890092FF6E /* launchd */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4DAC8FD0251009F300B90906 /* Embed Libraries */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				4D94F7892540EFEE007A5D15 /* libzip.dylib in Embed Libraries */,
+				4D94F7882540EFED007A5D15 /* libusbmuxd.dylib in Embed Libraries */,
+				4D94F7822540EFE5007A5D15 /* libcurl.dylib in Embed Libraries */,
+				4D94F7812540EFE4007A5D15 /* libcrypto.dylib in Embed Libraries */,
+				4D94F7832540EFE6007A5D15 /* libfragmentzip.dylib in Embed Libraries */,
+				4D94F7872540EFEB007A5D15 /* libssl.dylib in Embed Libraries */,
+				4DAA7B902653346300956125 /* libirecovery.3.dylib in Embed Libraries */,
+				4D94F7862540EFEA007A5D15 /* libplist.dylib in Embed Libraries */,
+			);
+			name = "Embed Libraries";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4D06D5672555C65E00079DF5 /* kodi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = kodi.png; path = Blackb0x/Files/kodi.png; sourceTree = SOURCE_ROOT; };
+		4D06D5682555C65E00079DF5 /* nito.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = nito.png; path = Blackb0x/Files/nito.png; sourceTree = SOURCE_ROOT; };
+		4D0F9A8A25431A60004C4154 /* awkwardtv.gpg */ = {isa = PBXFileReference; lastKnownFileType = file; name = awkwardtv.gpg; path = Blackb0x/Files/awkwardtv.gpg; sourceTree = SOURCE_ROOT; };
+		4D0F9A8C25431A60004C4154 /* post-install_script */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "post-install_script"; path = "Blackb0x/Files/post-install_script"; sourceTree = SOURCE_ROOT; };
+		4D0F9A8D25431A60004C4154 /* xbmc.list */ = {isa = PBXFileReference; lastKnownFileType = text; name = xbmc.list; path = Blackb0x/Files/xbmc.list; sourceTree = SOURCE_ROOT; };
+		4D0F9A8E25431A60004C4154 /* awkwardtv.list */ = {isa = PBXFileReference; lastKnownFileType = text; name = awkwardtv.list; path = Blackb0x/Files/awkwardtv.list; sourceTree = SOURCE_ROOT; };
+		4D0F9A8F25431A60004C4154 /* ramdisk_script */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ramdisk_script; path = Blackb0x/Files/ramdisk_script; sourceTree = SOURCE_ROOT; };
+		4D1993F9259B8958002D14FA /* .blackb0x */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = .blackb0x; path = Blackb0x/Files/.blackb0x; sourceTree = SOURCE_ROOT; };
+		4D1A1A8825C88E4200447E34 /* AppleTV3,1_12D508.keys */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "AppleTV3,1_12D508.keys"; sourceTree = "<group>"; };
+		4D1A1A8925C88E4200447E34 /* AppleTV3,1_12H911.keys */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "AppleTV3,1_12H911.keys"; sourceTree = "<group>"; };
+		4D1A1A8A25C88E4200447E34 /* AppleTV3,1_11A502.keys */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "AppleTV3,1_11A502.keys"; sourceTree = "<group>"; };
+		4D1A1A8B25C88E4200447E34 /* AppleTV3,1_11B554a.keys */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "AppleTV3,1_11B554a.keys"; sourceTree = "<group>"; };
+		4D1A1A8C25C88E4200447E34 /* AppleTV3,1_10A831.keys */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "AppleTV3,1_10A831.keys"; sourceTree = "<group>"; };
+		4D1A1A8D25C88E4200447E34 /* AppleTV3,1_11A470e.keys */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "AppleTV3,1_11A470e.keys"; sourceTree = "<group>"; };
+		4D1A1A8E25C88E4200447E34 /* AppleTV3,1_12H864.keys */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "AppleTV3,1_12H864.keys"; sourceTree = "<group>"; };
+		4D1A1A8F25C88E4200447E34 /* AppleTV3,1_9B179b.keys */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "AppleTV3,1_9B179b.keys"; sourceTree = "<group>"; };
+		4D1A1A9025C88E4200447E34 /* AppleTV3,1_12B435.keys */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "AppleTV3,1_12B435.keys"; sourceTree = "<group>"; };
+		4D1A1A9125C88E4200447E34 /* AppleTV3,1_11D257c.keys */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "AppleTV3,1_11D257c.keys"; sourceTree = "<group>"; };
+		4D1A1A9225C88E4200447E34 /* AppleTV3,1_11B651.keys */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "AppleTV3,1_11B651.keys"; sourceTree = "<group>"; };
+		4D1A1A9325C88E4200447E34 /* AppleTV3,1_11D169b.keys */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "AppleTV3,1_11D169b.keys"; sourceTree = "<group>"; };
+		4D1A1A9425C88E4200447E34 /* AppleTV3,1_11B511d.keys */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "AppleTV3,1_11B511d.keys"; sourceTree = "<group>"; };
+		4D1A1A9525C88E4200447E34 /* AppleTV3,1_12H523.keys */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "AppleTV3,1_12H523.keys"; sourceTree = "<group>"; };
+		4D1A1A9625C88E4200447E34 /* AppleTV3,1_12B410a.keys */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "AppleTV3,1_12B410a.keys"; sourceTree = "<group>"; };
+		4D1A1A9725C88E4200447E34 /* AppleTV3,1_11D201c.keys */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "AppleTV3,1_11D201c.keys"; sourceTree = "<group>"; };
+		4D1A1A9825C88E4200447E34 /* AppleTV3,1_10A406e.keys */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "AppleTV3,1_10A406e.keys"; sourceTree = "<group>"; };
+		4D1A1A9925C88E4200447E34 /* AppleTV3,1_9B830.keys */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "AppleTV3,1_9B830.keys"; sourceTree = "<group>"; };
+		4D1A1A9A25C88E4200447E34 /* AppleTV3,1_12H903.keys */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "AppleTV3,1_12H903.keys"; sourceTree = "<group>"; };
+		4D1A1A9B25C88E4200447E34 /* AppleTV3,1_12H606.keys */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "AppleTV3,1_12H606.keys"; sourceTree = "<group>"; };
+		4D1A1A9C25C88E4200447E34 /* AppleTV3,1_12H885.keys */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "AppleTV3,1_12H885.keys"; sourceTree = "<group>"; };
+		4D1A1A9D25C88E4200447E34 /* AppleTV3,1_10B329a.keys */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "AppleTV3,1_10B329a.keys"; sourceTree = "<group>"; };
+		4D1A1A9E25C88E4200447E34 /* AppleTV3,1_12H914.keys */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "AppleTV3,1_12H914.keys"; sourceTree = "<group>"; };
+		4D1A1A9F25C88E4200447E34 /* AppleTV3,1_12H847.keys */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "AppleTV3,1_12H847.keys"; sourceTree = "<group>"; };
+		4D1A1AA025C88E4200447E34 /* AppleTV3,1_10B809.keys */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "AppleTV3,1_10B809.keys"; sourceTree = "<group>"; };
+		4D1A1AA125C88E4200447E34 /* AppleTV3,1_10B144b.keys */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "AppleTV3,1_10B144b.keys"; sourceTree = "<group>"; };
+		4D1A1AA225C88E4200447E34 /* AppleTV3,1_12B466.keys */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "AppleTV3,1_12B466.keys"; sourceTree = "<group>"; };
+		4D1A1AA325C88E4200447E34 /* AppleTV3,1_12H876.keys */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "AppleTV3,1_12H876.keys"; sourceTree = "<group>"; };
+		4D1A1AA425C88E4200447E34 /* AppleTV3,1_12A365b.keys */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "AppleTV3,1_12A365b.keys"; sourceTree = "<group>"; };
+		4D1A1AA525C88E4200447E34 /* AppleTV3,1_12F69.keys */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "AppleTV3,1_12F69.keys"; sourceTree = "<group>"; };
+		4D1A1AA625C88E4200447E34 /* AppleTV3,1_9B206f.keys */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "AppleTV3,1_9B206f.keys"; sourceTree = "<group>"; };
+		4D1A1AA825C88E4200447E34 /* AppleTV2,1_9A405l.keys */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "AppleTV2,1_9A405l.keys"; sourceTree = "<group>"; };
+		4D1A1AA925C88E4200447E34 /* AppleTV2,1_11A470e.keys */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "AppleTV2,1_11A470e.keys"; sourceTree = "<group>"; };
+		4D1A1AAA25C88E4200447E34 /* AppleTV2,1_9B206f.keys */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "AppleTV2,1_9B206f.keys"; sourceTree = "<group>"; };
+		4D1A1AAB25C88E4200447E34 /* AppleTV2,1_11B554a.keys */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "AppleTV2,1_11B554a.keys"; sourceTree = "<group>"; };
+		4D1A1AAC25C88E4200447E34 /* AppleTV2,1_9A335a.keys */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "AppleTV2,1_9A335a.keys"; sourceTree = "<group>"; };
+		4D1A1AAD25C88E4200447E34 /* AppleTV2,1_8F191m.keys */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "AppleTV2,1_8F191m.keys"; sourceTree = "<group>"; };
+		4D1A1AAE25C88E4200447E34 /* AppleTV2,1_11D169b.keys */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "AppleTV2,1_11D169b.keys"; sourceTree = "<group>"; };
+		4D1A1AAF25C88E4200447E34 /* AppleTV2,1_9A336a.keys */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "AppleTV2,1_9A336a.keys"; sourceTree = "<group>"; };
+		4D1A1AB025C88E4200447E34 /* AppleTV2,1_10B809.keys */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "AppleTV2,1_10B809.keys"; sourceTree = "<group>"; };
+		4D1A1AB125C88E4200447E34 /* AppleTV2,1_8C150.keys */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "AppleTV2,1_8C150.keys"; sourceTree = "<group>"; };
+		4D1A1AB225C88E4200447E34 /* AppleTV2,1_8F305.keys */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "AppleTV2,1_8F305.keys"; sourceTree = "<group>"; };
+		4D1A1AB325C88E4200447E34 /* AppleTV2,1_11D257c.keys */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "AppleTV2,1_11D257c.keys"; sourceTree = "<group>"; };
+		4D1A1AB425C88E4200447E34 /* AppleTV2,1_9A406a.keys */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "AppleTV2,1_9A406a.keys"; sourceTree = "<group>"; };
+		4D1A1AB525C88E4200447E34 /* AppleTV2,1_11B651.keys */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "AppleTV2,1_11B651.keys"; sourceTree = "<group>"; };
+		4D1A1AB625C88E4200447E34 /* AppleTV2,1_8M89.keys */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "AppleTV2,1_8M89.keys"; sourceTree = "<group>"; };
+		4D1A1AB725C88E4200447E34 /* AppleTV2,1_9A334v.keys */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "AppleTV2,1_9A334v.keys"; sourceTree = "<group>"; };
+		4D1A1AB825C88E4200447E34 /* AppleTV2,1_10B329a.keys */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "AppleTV2,1_10B329a.keys"; sourceTree = "<group>"; };
+		4D1A1AB925C88E4200447E34 /* AppleTV2,1_10A406e.keys */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "AppleTV2,1_10A406e.keys"; sourceTree = "<group>"; };
+		4D1A1ABA25C88E4200447E34 /* AppleTV2,1_8F202.keys */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "AppleTV2,1_8F202.keys"; sourceTree = "<group>"; };
+		4D1A1ABB25C88E4200447E34 /* AppleTV2,1_9B179b.keys */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "AppleTV2,1_9B179b.keys"; sourceTree = "<group>"; };
+		4D1A1ABC25C88E4200447E34 /* AppleTV2,1_11D201c.keys */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "AppleTV2,1_11D201c.keys"; sourceTree = "<group>"; };
+		4D1A1ABD25C88E4200447E34 /* AppleTV2,1_9B830.keys */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "AppleTV2,1_9B830.keys"; sourceTree = "<group>"; };
+		4D1A1ABE25C88E4200447E34 /* AppleTV2,1_11B511d.keys */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "AppleTV2,1_11B511d.keys"; sourceTree = "<group>"; };
+		4D1A1ABF25C88E4200447E34 /* AppleTV2,1_8C154.keys */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "AppleTV2,1_8C154.keys"; sourceTree = "<group>"; };
+		4D1A1AC025C88E4200447E34 /* AppleTV2,1_10A831.keys */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "AppleTV2,1_10A831.keys"; sourceTree = "<group>"; };
+		4D1A1AC125C88E4200447E34 /* AppleTV2,1_11A502.keys */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "AppleTV2,1_11A502.keys"; sourceTree = "<group>"; };
+		4D1A1AC225C88E4200447E34 /* AppleTV2,1_8F455.keys */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "AppleTV2,1_8F455.keys"; sourceTree = "<group>"; };
+		4D1A1AC325C88E4200447E34 /* AppleTV2,1_11D258.keys */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "AppleTV2,1_11D258.keys"; sourceTree = "<group>"; };
+		4D1A1AC425C88E4200447E34 /* AppleTV2,1_10B144b.keys */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "AppleTV2,1_10B144b.keys"; sourceTree = "<group>"; };
+		4D1A1AC625C88E4200447E34 /* AppleTV3,2_10B144b.keys */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "AppleTV3,2_10B144b.keys"; sourceTree = "<group>"; };
+		4D1A1AC725C88E4200447E34 /* AppleTV3,2_11B651.keys */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "AppleTV3,2_11B651.keys"; sourceTree = "<group>"; };
+		4D1A1AC825C88E4200447E34 /* AppleTV3,2_12F69.keys */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "AppleTV3,2_12F69.keys"; sourceTree = "<group>"; };
+		4D1A1AC925C88E4200447E34 /* AppleTV3,2_10B806.keys */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "AppleTV3,2_10B806.keys"; sourceTree = "<group>"; };
+		4D1A1ACA25C88E4200447E34 /* AppleTV3,2_12B435.keys */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "AppleTV3,2_12B435.keys"; sourceTree = "<group>"; };
+		4D1A1ACB25C88E4200447E34 /* AppleTV3,2_12A365b.keys */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "AppleTV3,2_12A365b.keys"; sourceTree = "<group>"; };
+		4D1A1ACC25C88E4200447E34 /* AppleTV3,2_12H864.keys */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "AppleTV3,2_12H864.keys"; sourceTree = "<group>"; };
+		4D1A1ACD25C88E4200447E34 /* AppleTV3,2_12B410a.keys */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "AppleTV3,2_12B410a.keys"; sourceTree = "<group>"; };
+		4D1A1ACE25C88E4200447E34 /* AppleTV3,2_11D201c.keys */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "AppleTV3,2_11D201c.keys"; sourceTree = "<group>"; };
+		4D1A1ACF25C88E4200447E34 /* AppleTV3,2_11B511d.keys */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "AppleTV3,2_11B511d.keys"; sourceTree = "<group>"; };
+		4D1A1AD025C88E4200447E34 /* AppleTV3,2_12A402.keys */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "AppleTV3,2_12A402.keys"; sourceTree = "<group>"; };
+		4D1A1AD125C88E4200447E34 /* AppleTV3,2_11D257a.keys */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "AppleTV3,2_11D257a.keys"; sourceTree = "<group>"; };
+		4D1A1AD225C88E4200447E34 /* AppleTV3,2_11A469a.keys */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "AppleTV3,2_11A469a.keys"; sourceTree = "<group>"; };
+		4D1A1AD325C88E4200447E34 /* AppleTV3,2_10B329a.keys */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "AppleTV3,2_10B329a.keys"; sourceTree = "<group>"; };
+		4D1A1AD425C88E4200447E34 /* AppleTV3,2_11A502.keys */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "AppleTV3,2_11A502.keys"; sourceTree = "<group>"; };
+		4D1A1AD525C88E4200447E34 /* AppleTV3,2_12H911.keys */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "AppleTV3,2_12H911.keys"; sourceTree = "<group>"; };
+		4D1A1AD625C88E4200447E34 /* AppleTV3,2_11D201b.keys */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "AppleTV3,2_11D201b.keys"; sourceTree = "<group>"; };
+		4D1A1AD725C88E4200447E34 /* AppleTV3,2_12D508.keys */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "AppleTV3,2_12D508.keys"; sourceTree = "<group>"; };
+		4D1A1AD825C88E4200447E34 /* AppleTV3,2_11D257c.keys */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "AppleTV3,2_11D257c.keys"; sourceTree = "<group>"; };
+		4D1A1AD925C88E4200447E34 /* AppleTV3,2_12H876.keys */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "AppleTV3,2_12H876.keys"; sourceTree = "<group>"; };
+		4D1A1ADA25C88E4200447E34 /* AppleTV3,2_11D257b.keys */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "AppleTV3,2_11D257b.keys"; sourceTree = "<group>"; };
+		4D1A1ADB25C88E4200447E34 /* AppleTV3,2_11D169b.keys */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "AppleTV3,2_11D169b.keys"; sourceTree = "<group>"; };
+		4D1A1ADC25C88E4200447E34 /* AppleTV3,2_12B466.keys */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "AppleTV3,2_12B466.keys"; sourceTree = "<group>"; };
+		4D1A1ADD25C88E4200447E34 /* AppleTV3,2_10B809.keys */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "AppleTV3,2_10B809.keys"; sourceTree = "<group>"; };
+		4D1A1ADE25C88E4200447E34 /* AppleTV3,2_12H847.keys */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "AppleTV3,2_12H847.keys"; sourceTree = "<group>"; };
+		4D1A1ADF25C88E4200447E34 /* AppleTV3,2_12H914.keys */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "AppleTV3,2_12H914.keys"; sourceTree = "<group>"; };
+		4D1A1AE025C88E4200447E34 /* AppleTV3,2_12H885.keys */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "AppleTV3,2_12H885.keys"; sourceTree = "<group>"; };
+		4D1A1AE125C88E4200447E34 /* AppleTV3,2_12H606.keys */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "AppleTV3,2_12H606.keys"; sourceTree = "<group>"; };
+		4D1A1AE225C88E4200447E34 /* AppleTV3,2_11B554a.keys */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "AppleTV3,2_11B554a.keys"; sourceTree = "<group>"; };
+		4D1A1AE325C88E4200447E34 /* AppleTV3,2_12H903.keys */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "AppleTV3,2_12H903.keys"; sourceTree = "<group>"; };
+		4D1A1AE425C88E4200447E34 /* AppleTV3,2_12H523.keys */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "AppleTV3,2_12H523.keys"; sourceTree = "<group>"; };
+		4D1A1AE525C88E4200447E34 /* AppleTV3,2_11A470e.keys */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "AppleTV3,2_11A470e.keys"; sourceTree = "<group>"; };
+		4D28C388257EEB75003CE2AE /* setup.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = setup.sh; path = Blackb0x/Files/setup.sh; sourceTree = SOURCE_ROOT; };
+		4D3883792695960500659966 /* TaskManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TaskManager.m; path = Source/TaskManager.m; sourceTree = "<group>"; };
+		4D38837A2695960600659966 /* Patcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Patcher.h; path = Source/Patcher.h; sourceTree = "<group>"; };
+		4D38837B2695960600659966 /* Patcher.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = Patcher.mm; path = Source/Patcher.mm; sourceTree = "<group>"; };
+		4D38837C2695960600659966 /* TaskManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TaskManager.h; path = Source/TaskManager.h; sourceTree = "<group>"; };
+		4D38837F2695A37000659966 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Source/AppDelegate.h; sourceTree = "<group>"; };
+		4D3883802695A37000659966 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Source/AppDelegate.m; sourceTree = "<group>"; };
+		4D3883832695C5FC00659966 /* xpwntool.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = xpwntool.c; path = Libraries/xpwntool.c; sourceTree = "<group>"; };
+		4D3883842695C5FC00659966 /* CBPatcher.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = CBPatcher.c; path = Libraries/CBPatcher.c; sourceTree = "<group>"; };
+		4D3883862695C5FC00659966 /* CBPatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CBPatcher.h; path = Libraries/CBPatcher.h; sourceTree = "<group>"; };
+		4D3883872695C5FC00659966 /* xpwntool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = xpwntool.h; path = Libraries/xpwntool.h; sourceTree = "<group>"; };
+		4D3883882695C5FC00659966 /* libiboot32patcher.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = libiboot32patcher.c; path = Libraries/libiboot32patcher.c; sourceTree = "<group>"; };
+		4D38838E2695C62700659966 /* libbootkit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libbootkit.h; sourceTree = "<group>"; };
+		4D38838F2695C62700659966 /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		4D3883902695C62700659966 /* payload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = payload.h; sourceTree = "<group>"; };
+		4D3883922695C62700659966 /* payload.S */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = payload.S; sourceTree = "<group>"; };
+		4D3883932695C62700659966 /* rules.mk */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rules.mk; sourceTree = "<group>"; };
+		4D3883942695C62700659966 /* libbootkit.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = libbootkit.c; sourceTree = "<group>"; };
+		4D3883952695C62700659966 /* rules.mk */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rules.mk; sourceTree = "<group>"; };
+		4D38839A2695C69500659966 /* libiboot32patcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = libiboot32patcher.h; path = Libraries/libiboot32patcher.h; sourceTree = "<group>"; };
+		4D3E5EA72541C68A00577985 /* ATV-Cydia.tgz */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ATV-Cydia.tgz"; path = "Blackb0x/Files/ATV-Cydia.tgz"; sourceTree = SOURCE_ROOT; };
+		4D466DDA25F686E000EA1FFB /* libirecovery.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libirecovery.a; path = Blackb0x/Libraries/libirecovery.a; sourceTree = "<group>"; };
+		4D59A77025220B800034FC6B /* atv-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "atv-icon.png"; sourceTree = "<group>"; };
+		4D5DF5D9255DA45500D7D363 /* fstab.atv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = fstab.atv; path = Blackb0x/Files/fstab.atv; sourceTree = SOURCE_ROOT; };
+		4D5E4969251118C0009D7111 /* Blackb0x.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Blackb0x.h; path = Source/Blackb0x.h; sourceTree = "<group>"; };
+		4D5E496A251118C0009D7111 /* Blackb0x.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = Blackb0x.m; path = Source/Blackb0x.m; sourceTree = "<group>"; };
+		4D632F882510298600AA170E /* DeviceManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DeviceManager.h; path = Source/DeviceManager.h; sourceTree = "<group>"; };
+		4D632F892510298600AA170E /* DeviceManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = DeviceManager.m; path = Source/DeviceManager.m; sourceTree = "<group>"; };
+		4D632F8B251029BB00AA170E /* IPSW.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IPSW.h; path = Source/IPSW.h; sourceTree = "<group>"; };
+		4D632F8C251029BB00AA170E /* IPSW.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = IPSW.mm; path = Source/IPSW.mm; sourceTree = "<group>"; };
+		4D635E7B25B8C7B800A36536 /* checkm8.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = checkm8.h; path = Source/checkm8.h; sourceTree = "<group>"; };
+		4D71C7C4258680E00003EAC6 /* remote.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = remote.png; sourceTree = "<group>"; };
+		4D776FD525143BA800E56359 /* IPSWDownloader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IPSWDownloader.h; path = Source/IPSWDownloader.h; sourceTree = "<group>"; };
+		4D776FD625143BA800E56359 /* IPSWDownloader.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = IPSWDownloader.mm; path = Source/IPSWDownloader.mm; sourceTree = "<group>"; };
+		4D84BFDD25130161004A1125 /* Blackb0x.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Blackb0x.pch; sourceTree = "<group>"; };
+		4D8905C6251E332E008F71B3 /* MainView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MainView.h; path = Source/MainView.h; sourceTree = "<group>"; };
+		4D8905C7251E332E008F71B3 /* MainView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MainView.m; path = Source/MainView.m; sourceTree = "<group>"; };
+		4D8A9B6925894E7800B9FEF9 /* SHAtter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SHAtter.h; path = Source/SHAtter.h; sourceTree = "<group>"; };
+		4D94F75D2540EB9B007A5D15 /* RamdiskBins.tar */ = {isa = PBXFileReference; lastKnownFileType = archive.tar; name = RamdiskBins.tar; path = Blackb0x/Files/RamdiskBins.tar; sourceTree = SOURCE_ROOT; };
+		4D94F75F2540EB9B007A5D15 /* Debs.tar */ = {isa = PBXFileReference; lastKnownFileType = archive.tar; name = Debs.tar; path = Blackb0x/Files/Debs.tar; sourceTree = SOURCE_ROOT; };
+		4D94F7602540EB9B007A5D15 /* ssh.tar */ = {isa = PBXFileReference; lastKnownFileType = archive.tar; name = ssh.tar; path = Blackb0x/Files/ssh.tar; sourceTree = SOURCE_ROOT; };
+		4D94F7672540EF8E007A5D15 /* libxpwntool.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libxpwntool.a; path = Blackb0x/Libraries/libxpwntool.a; sourceTree = "<group>"; };
+		4D94F7682540EF8E007A5D15 /* libssl.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libssl.dylib; path = Blackb0x/Libraries/libssl.dylib; sourceTree = "<group>"; };
+		4D94F7692540EF8E007A5D15 /* libzip.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libzip.dylib; path = Blackb0x/Libraries/libzip.dylib; sourceTree = "<group>"; };
+		4D94F76A2540EF8E007A5D15 /* libusbmuxd.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libusbmuxd.dylib; path = Blackb0x/Libraries/libusbmuxd.dylib; sourceTree = "<group>"; };
+		4D94F76B2540EF8E007A5D15 /* libcbpatcher.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcbpatcher.a; path = Blackb0x/Libraries/libcbpatcher.a; sourceTree = "<group>"; };
+		4D94F76D2540EF8E007A5D15 /* libcurl.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcurl.dylib; path = Blackb0x/Libraries/libcurl.dylib; sourceTree = "<group>"; };
+		4D94F76E2540EF8E007A5D15 /* libplist.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libplist.dylib; path = Blackb0x/Libraries/libplist.dylib; sourceTree = "<group>"; };
+		4D94F76F2540EF8E007A5D15 /* libiboot32patcher.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libiboot32patcher.a; path = Blackb0x/Libraries/libiboot32patcher.a; sourceTree = "<group>"; };
+		4D94F7702540EF8E007A5D15 /* libfragmentzip.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libfragmentzip.dylib; path = Blackb0x/Libraries/libfragmentzip.dylib; sourceTree = "<group>"; };
+		4D94F7712540EF8E007A5D15 /* libirecovery.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libirecovery.dylib; path = Blackb0x/Libraries/libirecovery.dylib; sourceTree = "<group>"; };
+		4D94F7722540EF8E007A5D15 /* libcrypto.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcrypto.dylib; path = Blackb0x/Libraries/libcrypto.dylib; sourceTree = "<group>"; };
+		4DAC8FA0251009DC00B90906 /* Blackb0x.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Blackb0x.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DAC8FA6251009DD00B90906 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4DAC8FA9251009DD00B90906 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		4DAC8FAB251009DD00B90906 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DAC8FAC251009DD00B90906 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4DAC8FAE251009DD00B90906 /* Blackb0x.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Blackb0x.entitlements; sourceTree = "<group>"; };
+		4DB1CAC526524765006B560E /* libirecovery.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libirecovery.3.dylib; path = Blackb0x/Libraries/libirecovery.3.dylib; sourceTree = "<group>"; };
+		4DBD949D2560B13100252435 /* profile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = profile; path = Blackb0x/Files/profile; sourceTree = SOURCE_ROOT; };
+		4DC02395259D293900FCDEAA /* com.blackb0x.postinstall.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = com.blackb0x.postinstall.plist; path = Blackb0x/Files/com.blackb0x.postinstall.plist; sourceTree = SOURCE_ROOT; };
+		4DC02396259D293900FCDEAA /* com.openssh.sshd.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = com.openssh.sshd.plist; path = Blackb0x/Files/com.openssh.sshd.plist; sourceTree = SOURCE_ROOT; };
+		4DCAACD725A2321E0058FA9B /* p0sixspwn.tgz */ = {isa = PBXFileReference; lastKnownFileType = file; name = p0sixspwn.tgz; path = Blackb0x/Files/p0sixspwn.tgz; sourceTree = SOURCE_ROOT; };
+		4DF1DAEB261865AF00B242A0 /* tihmstar-untether.tar */ = {isa = PBXFileReference; lastKnownFileType = archive.tar; name = "tihmstar-untether.tar"; path = "Blackb0x/Files/tihmstar-untether.tar"; sourceTree = SOURCE_ROOT; };
+		4DF1DAED2618779600B242A0 /* rtbuddyd.bin */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = archive.macbinary; name = rtbuddyd.bin; path = Blackb0x/Files/rtbuddyd.bin; sourceTree = SOURCE_ROOT; };
+		4DFEFE89254A26890092FF6E /* launchd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = launchd; path = Blackb0x/Files/launchd; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4DAC8F9D251009DC00B90906 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D94F7752540EF8E007A5D15 /* libxpwntool.a in Frameworks */,
+				4D94F7762540EF8E007A5D15 /* libssl.dylib in Frameworks */,
+				4DAA7B8F2653346300956125 /* libirecovery.3.dylib in Frameworks */,
+				4D94F7772540EF8E007A5D15 /* libzip.dylib in Frameworks */,
+				4D94F7782540EF8E007A5D15 /* libusbmuxd.dylib in Frameworks */,
+				4D94F7792540EF8E007A5D15 /* libcbpatcher.a in Frameworks */,
+				4DAA7B912653346B00956125 /* libirecovery.a in Frameworks */,
+				4D94F77B2540EF8E007A5D15 /* libcurl.dylib in Frameworks */,
+				4D94F77C2540EF8E007A5D15 /* libplist.dylib in Frameworks */,
+				4D94F77D2540EF8E007A5D15 /* libiboot32patcher.a in Frameworks */,
+				4D94F77E2540EF8E007A5D15 /* libfragmentzip.dylib in Frameworks */,
+				4D94F7802540EF8E007A5D15 /* libcrypto.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D1A1A8625C88E4200447E34 /* Keys */ = {
+			isa = PBXGroup;
+			children = (
+				4D1A1A8725C88E4200447E34 /* AppleTV3,1 */,
+				4D1A1AA725C88E4200447E34 /* AppleTV2,1 */,
+				4D1A1AC525C88E4200447E34 /* AppleTV3,2 */,
+			);
+			name = Keys;
+			path = Files/Keys;
+			sourceTree = "<group>";
+		};
+		4D1A1A8725C88E4200447E34 /* AppleTV3,1 */ = {
+			isa = PBXGroup;
+			children = (
+				4D1A1A8825C88E4200447E34 /* AppleTV3,1_12D508.keys */,
+				4D1A1A8925C88E4200447E34 /* AppleTV3,1_12H911.keys */,
+				4D1A1A8A25C88E4200447E34 /* AppleTV3,1_11A502.keys */,
+				4D1A1A8B25C88E4200447E34 /* AppleTV3,1_11B554a.keys */,
+				4D1A1A8C25C88E4200447E34 /* AppleTV3,1_10A831.keys */,
+				4D1A1A8D25C88E4200447E34 /* AppleTV3,1_11A470e.keys */,
+				4D1A1A8E25C88E4200447E34 /* AppleTV3,1_12H864.keys */,
+				4D1A1A8F25C88E4200447E34 /* AppleTV3,1_9B179b.keys */,
+				4D1A1A9025C88E4200447E34 /* AppleTV3,1_12B435.keys */,
+				4D1A1A9125C88E4200447E34 /* AppleTV3,1_11D257c.keys */,
+				4D1A1A9225C88E4200447E34 /* AppleTV3,1_11B651.keys */,
+				4D1A1A9325C88E4200447E34 /* AppleTV3,1_11D169b.keys */,
+				4D1A1A9425C88E4200447E34 /* AppleTV3,1_11B511d.keys */,
+				4D1A1A9525C88E4200447E34 /* AppleTV3,1_12H523.keys */,
+				4D1A1A9625C88E4200447E34 /* AppleTV3,1_12B410a.keys */,
+				4D1A1A9725C88E4200447E34 /* AppleTV3,1_11D201c.keys */,
+				4D1A1A9825C88E4200447E34 /* AppleTV3,1_10A406e.keys */,
+				4D1A1A9925C88E4200447E34 /* AppleTV3,1_9B830.keys */,
+				4D1A1A9A25C88E4200447E34 /* AppleTV3,1_12H903.keys */,
+				4D1A1A9B25C88E4200447E34 /* AppleTV3,1_12H606.keys */,
+				4D1A1A9C25C88E4200447E34 /* AppleTV3,1_12H885.keys */,
+				4D1A1A9D25C88E4200447E34 /* AppleTV3,1_10B329a.keys */,
+				4D1A1A9E25C88E4200447E34 /* AppleTV3,1_12H914.keys */,
+				4D1A1A9F25C88E4200447E34 /* AppleTV3,1_12H847.keys */,
+				4D1A1AA025C88E4200447E34 /* AppleTV3,1_10B809.keys */,
+				4D1A1AA125C88E4200447E34 /* AppleTV3,1_10B144b.keys */,
+				4D1A1AA225C88E4200447E34 /* AppleTV3,1_12B466.keys */,
+				4D1A1AA325C88E4200447E34 /* AppleTV3,1_12H876.keys */,
+				4D1A1AA425C88E4200447E34 /* AppleTV3,1_12A365b.keys */,
+				4D1A1AA525C88E4200447E34 /* AppleTV3,1_12F69.keys */,
+				4D1A1AA625C88E4200447E34 /* AppleTV3,1_9B206f.keys */,
+			);
+			path = "AppleTV3,1";
+			sourceTree = "<group>";
+		};
+		4D1A1AA725C88E4200447E34 /* AppleTV2,1 */ = {
+			isa = PBXGroup;
+			children = (
+				4D1A1AA825C88E4200447E34 /* AppleTV2,1_9A405l.keys */,
+				4D1A1AA925C88E4200447E34 /* AppleTV2,1_11A470e.keys */,
+				4D1A1AAA25C88E4200447E34 /* AppleTV2,1_9B206f.keys */,
+				4D1A1AAB25C88E4200447E34 /* AppleTV2,1_11B554a.keys */,
+				4D1A1AAC25C88E4200447E34 /* AppleTV2,1_9A335a.keys */,
+				4D1A1AAD25C88E4200447E34 /* AppleTV2,1_8F191m.keys */,
+				4D1A1AAE25C88E4200447E34 /* AppleTV2,1_11D169b.keys */,
+				4D1A1AAF25C88E4200447E34 /* AppleTV2,1_9A336a.keys */,
+				4D1A1AB025C88E4200447E34 /* AppleTV2,1_10B809.keys */,
+				4D1A1AB125C88E4200447E34 /* AppleTV2,1_8C150.keys */,
+				4D1A1AB225C88E4200447E34 /* AppleTV2,1_8F305.keys */,
+				4D1A1AB325C88E4200447E34 /* AppleTV2,1_11D257c.keys */,
+				4D1A1AB425C88E4200447E34 /* AppleTV2,1_9A406a.keys */,
+				4D1A1AB525C88E4200447E34 /* AppleTV2,1_11B651.keys */,
+				4D1A1AB625C88E4200447E34 /* AppleTV2,1_8M89.keys */,
+				4D1A1AB725C88E4200447E34 /* AppleTV2,1_9A334v.keys */,
+				4D1A1AB825C88E4200447E34 /* AppleTV2,1_10B329a.keys */,
+				4D1A1AB925C88E4200447E34 /* AppleTV2,1_10A406e.keys */,
+				4D1A1ABA25C88E4200447E34 /* AppleTV2,1_8F202.keys */,
+				4D1A1ABB25C88E4200447E34 /* AppleTV2,1_9B179b.keys */,
+				4D1A1ABC25C88E4200447E34 /* AppleTV2,1_11D201c.keys */,
+				4D1A1ABD25C88E4200447E34 /* AppleTV2,1_9B830.keys */,
+				4D1A1ABE25C88E4200447E34 /* AppleTV2,1_11B511d.keys */,
+				4D1A1ABF25C88E4200447E34 /* AppleTV2,1_8C154.keys */,
+				4D1A1AC025C88E4200447E34 /* AppleTV2,1_10A831.keys */,
+				4D1A1AC125C88E4200447E34 /* AppleTV2,1_11A502.keys */,
+				4D1A1AC225C88E4200447E34 /* AppleTV2,1_8F455.keys */,
+				4D1A1AC325C88E4200447E34 /* AppleTV2,1_11D258.keys */,
+				4D1A1AC425C88E4200447E34 /* AppleTV2,1_10B144b.keys */,
+			);
+			path = "AppleTV2,1";
+			sourceTree = "<group>";
+		};
+		4D1A1AC525C88E4200447E34 /* AppleTV3,2 */ = {
+			isa = PBXGroup;
+			children = (
+				4D1A1AC625C88E4200447E34 /* AppleTV3,2_10B144b.keys */,
+				4D1A1AC725C88E4200447E34 /* AppleTV3,2_11B651.keys */,
+				4D1A1AC825C88E4200447E34 /* AppleTV3,2_12F69.keys */,
+				4D1A1AC925C88E4200447E34 /* AppleTV3,2_10B806.keys */,
+				4D1A1ACA25C88E4200447E34 /* AppleTV3,2_12B435.keys */,
+				4D1A1ACB25C88E4200447E34 /* AppleTV3,2_12A365b.keys */,
+				4D1A1ACC25C88E4200447E34 /* AppleTV3,2_12H864.keys */,
+				4D1A1ACD25C88E4200447E34 /* AppleTV3,2_12B410a.keys */,
+				4D1A1ACE25C88E4200447E34 /* AppleTV3,2_11D201c.keys */,
+				4D1A1ACF25C88E4200447E34 /* AppleTV3,2_11B511d.keys */,
+				4D1A1AD025C88E4200447E34 /* AppleTV3,2_12A402.keys */,
+				4D1A1AD125C88E4200447E34 /* AppleTV3,2_11D257a.keys */,
+				4D1A1AD225C88E4200447E34 /* AppleTV3,2_11A469a.keys */,
+				4D1A1AD325C88E4200447E34 /* AppleTV3,2_10B329a.keys */,
+				4D1A1AD425C88E4200447E34 /* AppleTV3,2_11A502.keys */,
+				4D1A1AD525C88E4200447E34 /* AppleTV3,2_12H911.keys */,
+				4D1A1AD625C88E4200447E34 /* AppleTV3,2_11D201b.keys */,
+				4D1A1AD725C88E4200447E34 /* AppleTV3,2_12D508.keys */,
+				4D1A1AD825C88E4200447E34 /* AppleTV3,2_11D257c.keys */,
+				4D1A1AD925C88E4200447E34 /* AppleTV3,2_12H876.keys */,
+				4D1A1ADA25C88E4200447E34 /* AppleTV3,2_11D257b.keys */,
+				4D1A1ADB25C88E4200447E34 /* AppleTV3,2_11D169b.keys */,
+				4D1A1ADC25C88E4200447E34 /* AppleTV3,2_12B466.keys */,
+				4D1A1ADD25C88E4200447E34 /* AppleTV3,2_10B809.keys */,
+				4D1A1ADE25C88E4200447E34 /* AppleTV3,2_12H847.keys */,
+				4D1A1ADF25C88E4200447E34 /* AppleTV3,2_12H914.keys */,
+				4D1A1AE025C88E4200447E34 /* AppleTV3,2_12H885.keys */,
+				4D1A1AE125C88E4200447E34 /* AppleTV3,2_12H606.keys */,
+				4D1A1AE225C88E4200447E34 /* AppleTV3,2_11B554a.keys */,
+				4D1A1AE325C88E4200447E34 /* AppleTV3,2_12H903.keys */,
+				4D1A1AE425C88E4200447E34 /* AppleTV3,2_12H523.keys */,
+				4D1A1AE525C88E4200447E34 /* AppleTV3,2_11A470e.keys */,
+			);
+			path = "AppleTV3,2";
+			sourceTree = "<group>";
+		};
+		4D38838D2695C62700659966 /* libbootkit */ = {
+			isa = PBXGroup;
+			children = (
+				4D38838E2695C62700659966 /* libbootkit.h */,
+				4D38838F2695C62700659966 /* config.h */,
+				4D3883902695C62700659966 /* payload.h */,
+				4D3883912695C62700659966 /* payload */,
+				4D3883942695C62700659966 /* libbootkit.c */,
+				4D3883952695C62700659966 /* rules.mk */,
+			);
+			name = libbootkit;
+			path = Libraries/libbootkit;
+			sourceTree = "<group>";
+		};
+		4D3883912695C62700659966 /* payload */ = {
+			isa = PBXGroup;
+			children = (
+				4D3883922695C62700659966 /* payload.S */,
+				4D3883932695C62700659966 /* rules.mk */,
+			);
+			path = payload;
+			sourceTree = "<group>";
+		};
+		4D94F75C2540EB79007A5D15 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				4D1993F9259B8958002D14FA /* .blackb0x */,
+				4DC02395259D293900FCDEAA /* com.blackb0x.postinstall.plist */,
+				4DC02396259D293900FCDEAA /* com.openssh.sshd.plist */,
+				4DF1DAEB261865AF00B242A0 /* tihmstar-untether.tar */,
+				4D28C388257EEB75003CE2AE /* setup.sh */,
+				4D5DF5D9255DA45500D7D363 /* fstab.atv */,
+				4DBD949D2560B13100252435 /* profile */,
+				4DF1DAED2618779600B242A0 /* rtbuddyd.bin */,
+				4DFEFE89254A26890092FF6E /* launchd */,
+				4D06D5672555C65E00079DF5 /* kodi.png */,
+				4D06D5682555C65E00079DF5 /* nito.png */,
+				4D0F9A8E25431A60004C4154 /* awkwardtv.list */,
+				4D0F9A8A25431A60004C4154 /* awkwardtv.gpg */,
+				4DCAACD725A2321E0058FA9B /* p0sixspwn.tgz */,
+				4D0F9A8C25431A60004C4154 /* post-install_script */,
+				4D0F9A8F25431A60004C4154 /* ramdisk_script */,
+				4D0F9A8D25431A60004C4154 /* xbmc.list */,
+				4D3E5EA72541C68A00577985 /* ATV-Cydia.tgz */,
+				4D94F75F2540EB9B007A5D15 /* Debs.tar */,
+				4D94F75D2540EB9B007A5D15 /* RamdiskBins.tar */,
+				4D94F7602540EB9B007A5D15 /* ssh.tar */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		4DAC8F97251009DC00B90906 = {
+			isa = PBXGroup;
+			children = (
+				4DAC8FA2251009DC00B90906 /* Blackb0x */,
+				4DAC8FA1251009DC00B90906 /* Products */,
+				4DAC8FB4251009EE00B90906 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4DAC8FA1251009DC00B90906 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4DAC8FA0251009DC00B90906 /* Blackb0x.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4DAC8FA2251009DC00B90906 /* Blackb0x */ = {
+			isa = PBXGroup;
+			children = (
+				4DBA214E2694194C006F74CA /* External */,
+				4D1A1A8625C88E4200447E34 /* Keys */,
+				4D94F75C2540EB79007A5D15 /* Packages */,
+				4D632F882510298600AA170E /* DeviceManager.h */,
+				4D632F892510298600AA170E /* DeviceManager.m */,
+				4D635E7B25B8C7B800A36536 /* checkm8.h */,
+				4D8A9B6925894E7800B9FEF9 /* SHAtter.h */,
+				4D632F8B251029BB00AA170E /* IPSW.h */,
+				4D632F8C251029BB00AA170E /* IPSW.mm */,
+				4D776FD525143BA800E56359 /* IPSWDownloader.h */,
+				4D776FD625143BA800E56359 /* IPSWDownloader.mm */,
+				4D8905C6251E332E008F71B3 /* MainView.h */,
+				4D8905C7251E332E008F71B3 /* MainView.m */,
+				4D38837A2695960600659966 /* Patcher.h */,
+				4D38837B2695960600659966 /* Patcher.mm */,
+				4D38837C2695960600659966 /* TaskManager.h */,
+				4D3883792695960500659966 /* TaskManager.m */,
+				4D84BFDD25130161004A1125 /* Blackb0x.pch */,
+				4D5E4969251118C0009D7111 /* Blackb0x.h */,
+				4D5E496A251118C0009D7111 /* Blackb0x.m */,
+				4D38837F2695A37000659966 /* AppDelegate.h */,
+				4D3883802695A37000659966 /* AppDelegate.m */,
+				4D59A77025220B800034FC6B /* atv-icon.png */,
+				4D71C7C4258680E00003EAC6 /* remote.png */,
+				4DAC8FA6251009DD00B90906 /* Assets.xcassets */,
+				4DAC8FA8251009DD00B90906 /* MainMenu.xib */,
+				4DAC8FAB251009DD00B90906 /* Info.plist */,
+				4DAC8FAC251009DD00B90906 /* main.m */,
+				4DAC8FAE251009DD00B90906 /* Blackb0x.entitlements */,
+			);
+			path = Blackb0x;
+			sourceTree = "<group>";
+		};
+		4DAC8FB4251009EE00B90906 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4DB1CAC526524765006B560E /* libirecovery.3.dylib */,
+				4D466DDA25F686E000EA1FFB /* libirecovery.a */,
+				4D94F76B2540EF8E007A5D15 /* libcbpatcher.a */,
+				4D94F7722540EF8E007A5D15 /* libcrypto.dylib */,
+				4D94F76D2540EF8E007A5D15 /* libcurl.dylib */,
+				4D94F7702540EF8E007A5D15 /* libfragmentzip.dylib */,
+				4D94F76F2540EF8E007A5D15 /* libiboot32patcher.a */,
+				4D94F7712540EF8E007A5D15 /* libirecovery.dylib */,
+				4D94F76E2540EF8E007A5D15 /* libplist.dylib */,
+				4D94F7682540EF8E007A5D15 /* libssl.dylib */,
+				4D94F76A2540EF8E007A5D15 /* libusbmuxd.dylib */,
+				4D94F7672540EF8E007A5D15 /* libxpwntool.a */,
+				4D94F7692540EF8E007A5D15 /* libzip.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4DBA214E2694194C006F74CA /* External */ = {
+			isa = PBXGroup;
+			children = (
+				4D38838D2695C62700659966 /* libbootkit */,
+				4D3883842695C5FC00659966 /* CBPatcher.c */,
+				4D3883862695C5FC00659966 /* CBPatcher.h */,
+				4D38839A2695C69500659966 /* libiboot32patcher.h */,
+				4D3883882695C5FC00659966 /* libiboot32patcher.c */,
+				4D3883832695C5FC00659966 /* xpwntool.c */,
+				4D3883872695C5FC00659966 /* xpwntool.h */,
+			);
+			name = External;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4DAC8F9F251009DC00B90906 /* Blackb0x */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DAC8FB1251009DD00B90906 /* Build configuration list for PBXNativeTarget "Blackb0x" */;
+			buildPhases = (
+				4DAC8F9C251009DC00B90906 /* Sources */,
+				4DAC8F9D251009DC00B90906 /* Frameworks */,
+				4DAC8F9E251009DC00B90906 /* Resources */,
+				4DAC8FD0251009F300B90906 /* Embed Libraries */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Blackb0x;
+			productName = AppleTVKit;
+			productReference = 4DAC8FA0251009DC00B90906 /* Blackb0x.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4DAC8F98251009DC00B90906 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = spiral;
+				TargetAttributes = {
+					4DAC8F9F251009DC00B90906 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = 4DAC8F9B251009DC00B90906 /* Build configuration list for PBXProject "Blackb0x" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4DAC8F97251009DC00B90906;
+			productRefGroup = 4DAC8FA1251009DC00B90906 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4DAC8F9F251009DC00B90906 /* Blackb0x */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4DAC8F9E251009DC00B90906 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D1A1AEC25C88E4200447E34 /* AppleTV3,1_12H864.keys in Resources */,
+				4DBD949E2560B13100252435 /* profile in Resources */,
+				4D1A1B3625C88E4200447E34 /* AppleTV3,2_11D257b.keys in Resources */,
+				4D1A1B0D25C88E4200447E34 /* AppleTV2,1_10B809.keys in Resources */,
+				4D28C38A257EEB75003CE2AE /* setup.sh in Resources */,
+				4D1A1B0425C88E4200447E34 /* AppleTV3,1_9B206f.keys in Resources */,
+				4D1A1B2B25C88E4200447E34 /* AppleTV3,2_11B511d.keys in Resources */,
+				4D1A1B0C25C88E4200447E34 /* AppleTV2,1_9A336a.keys in Resources */,
+				4D1A1B3425C88E4200447E34 /* AppleTV3,2_11D257c.keys in Resources */,
+				4D1A1AFC25C88E4200447E34 /* AppleTV3,1_12H914.keys in Resources */,
+				4DAC8FA7251009DD00B90906 /* Assets.xcassets in Resources */,
+				4D1A1AF625C88E4200447E34 /* AppleTV3,1_10A406e.keys in Resources */,
+				4D1A1B3B25C88E4200447E34 /* AppleTV3,2_12H914.keys in Resources */,
+				4D1A1B1C25C88E4200447E34 /* AppleTV2,1_8C154.keys in Resources */,
+				4D06D56A2555C65E00079DF5 /* nito.png in Resources */,
+				4D1A1AF525C88E4200447E34 /* AppleTV3,1_11D201c.keys in Resources */,
+				4D1A1AF325C88E4200447E34 /* AppleTV3,1_12H523.keys in Resources */,
+				4D1A1B1A25C88E4200447E34 /* AppleTV2,1_9B830.keys in Resources */,
+				4D1A1B0225C88E4200447E34 /* AppleTV3,1_12A365b.keys in Resources */,
+				4D1A1AE825C88E4200447E34 /* AppleTV3,1_11A502.keys in Resources */,
+				4D1A1B0325C88E4200447E34 /* AppleTV3,1_12F69.keys in Resources */,
+				4D1A1B3225C88E4200447E34 /* AppleTV3,2_11D201b.keys in Resources */,
+				4D1A1AFA25C88E4200447E34 /* AppleTV3,1_12H885.keys in Resources */,
+				4D1A1B4025C88E4200447E34 /* AppleTV3,2_12H523.keys in Resources */,
+				4D1A1B3A25C88E4200447E34 /* AppleTV3,2_12H847.keys in Resources */,
+				4D1A1B2325C88E4200447E34 /* AppleTV3,2_11B651.keys in Resources */,
+				4D06D5692555C65E00079DF5 /* kodi.png in Resources */,
+				4D1A1AF225C88E4200447E34 /* AppleTV3,1_11B511d.keys in Resources */,
+				4D1A1B0E25C88E4200447E34 /* AppleTV2,1_8C150.keys in Resources */,
+				4D1A1B2125C88E4200447E34 /* AppleTV2,1_10B144b.keys in Resources */,
+				4D1A1B2E25C88E4200447E34 /* AppleTV3,2_11A469a.keys in Resources */,
+				4D1A1B1325C88E4200447E34 /* AppleTV2,1_8M89.keys in Resources */,
+				4DF1DAEE2618779600B242A0 /* rtbuddyd.bin in Resources */,
+				4DF1DAEC261865AF00B242A0 /* tihmstar-untether.tar in Resources */,
+				4D1A1B4125C88E4200447E34 /* AppleTV3,2_11A470e.keys in Resources */,
+				4D1A1B0525C88E4200447E34 /* AppleTV2,1_9A405l.keys in Resources */,
+				4D1A1B0925C88E4200447E34 /* AppleTV2,1_9A335a.keys in Resources */,
+				4D1A1B3825C88E4200447E34 /* AppleTV3,2_12B466.keys in Resources */,
+				4D1A1B3025C88E4200447E34 /* AppleTV3,2_11A502.keys in Resources */,
+				4D94F7642540EB9B007A5D15 /* ssh.tar in Resources */,
+				4D1A1B0025C88E4200447E34 /* AppleTV3,1_12B466.keys in Resources */,
+				4D1A1B0A25C88E4200447E34 /* AppleTV2,1_8F191m.keys in Resources */,
+				4D3883992695C62700659966 /* rules.mk in Resources */,
+				4D1A1B2D25C88E4200447E34 /* AppleTV3,2_11D257a.keys in Resources */,
+				4D1A1B2625C88E4200447E34 /* AppleTV3,2_12B435.keys in Resources */,
+				4D1A1AEA25C88E4200447E34 /* AppleTV3,1_10A831.keys in Resources */,
+				4D5DF5DA255DA45500D7D363 /* fstab.atv in Resources */,
+				4D1A1B0125C88E4200447E34 /* AppleTV3,1_12H876.keys in Resources */,
+				4D1A1B2925C88E4200447E34 /* AppleTV3,2_12B410a.keys in Resources */,
+				4D3E5EA82541C68A00577985 /* ATV-Cydia.tgz in Resources */,
+				4D1A1B1D25C88E4200447E34 /* AppleTV2,1_10A831.keys in Resources */,
+				4D1A1AF425C88E4200447E34 /* AppleTV3,1_12B410a.keys in Resources */,
+				4D1A1AF825C88E4200447E34 /* AppleTV3,1_12H903.keys in Resources */,
+				4D1A1B1E25C88E4200447E34 /* AppleTV2,1_11A502.keys in Resources */,
+				4DFEFE8A254A26890092FF6E /* launchd in Resources */,
+				4D1A1B3525C88E4200447E34 /* AppleTV3,2_12H876.keys in Resources */,
+				4DAC8FAA251009DD00B90906 /* MainMenu.xib in Resources */,
+				4D1A1AFD25C88E4200447E34 /* AppleTV3,1_12H847.keys in Resources */,
+				4D0F9A9025431A60004C4154 /* awkwardtv.gpg in Resources */,
+				4D59A77125220B800034FC6B /* atv-icon.png in Resources */,
+				4D1A1AF125C88E4200447E34 /* AppleTV3,1_11D169b.keys in Resources */,
+				4D1A1B0B25C88E4200447E34 /* AppleTV2,1_11D169b.keys in Resources */,
+				4DC02397259D293900FCDEAA /* com.blackb0x.postinstall.plist in Resources */,
+				4D1A1AF025C88E4200447E34 /* AppleTV3,1_11B651.keys in Resources */,
+				4D1A1B1225C88E4200447E34 /* AppleTV2,1_11B651.keys in Resources */,
+				4D1A1B1025C88E4200447E34 /* AppleTV2,1_11D257c.keys in Resources */,
+				4D1A1B1125C88E4200447E34 /* AppleTV2,1_9A406a.keys in Resources */,
+				4D1A1B3925C88E4200447E34 /* AppleTV3,2_10B809.keys in Resources */,
+				4D1A1B3125C88E4200447E34 /* AppleTV3,2_12H911.keys in Resources */,
+				4D1A1B2A25C88E4200447E34 /* AppleTV3,2_11D201c.keys in Resources */,
+				4D1993FA259B8958002D14FA /* .blackb0x in Resources */,
+				4D1A1AEF25C88E4200447E34 /* AppleTV3,1_11D257c.keys in Resources */,
+				4D1A1B2025C88E4200447E34 /* AppleTV2,1_11D258.keys in Resources */,
+				4D1A1AFE25C88E4200447E34 /* AppleTV3,1_10B809.keys in Resources */,
+				4D1A1B1625C88E4200447E34 /* AppleTV2,1_10A406e.keys in Resources */,
+				4D1A1B0625C88E4200447E34 /* AppleTV2,1_11A470e.keys in Resources */,
+				4D94F7612540EB9B007A5D15 /* RamdiskBins.tar in Resources */,
+				4D1A1B1925C88E4200447E34 /* AppleTV2,1_11D201c.keys in Resources */,
+				4D1A1AFF25C88E4200447E34 /* AppleTV3,1_10B144b.keys in Resources */,
+				4D1A1B1825C88E4200447E34 /* AppleTV2,1_9B179b.keys in Resources */,
+				4D1A1B3D25C88E4200447E34 /* AppleTV3,2_12H606.keys in Resources */,
+				4D1A1AF925C88E4200447E34 /* AppleTV3,1_12H606.keys in Resources */,
+				4D1A1B0825C88E4200447E34 /* AppleTV2,1_11B554a.keys in Resources */,
+				4D71C7C5258680E00003EAC6 /* remote.png in Resources */,
+				4D1A1B3325C88E4200447E34 /* AppleTV3,2_12D508.keys in Resources */,
+				4D1A1B2225C88E4200447E34 /* AppleTV3,2_10B144b.keys in Resources */,
+				4D1A1B1B25C88E4200447E34 /* AppleTV2,1_11B511d.keys in Resources */,
+				4D1A1B0725C88E4200447E34 /* AppleTV2,1_9B206f.keys in Resources */,
+				4D1A1B0F25C88E4200447E34 /* AppleTV2,1_8F305.keys in Resources */,
+				4D1A1B1725C88E4200447E34 /* AppleTV2,1_8F202.keys in Resources */,
+				4D1A1AE925C88E4200447E34 /* AppleTV3,1_11B554a.keys in Resources */,
+				4D1A1AED25C88E4200447E34 /* AppleTV3,1_9B179b.keys in Resources */,
+				4D1A1B1F25C88E4200447E34 /* AppleTV2,1_8F455.keys in Resources */,
+				4D1A1AF725C88E4200447E34 /* AppleTV3,1_9B830.keys in Resources */,
+				4D0F9A9325431A60004C4154 /* xbmc.list in Resources */,
+				4D1A1B2C25C88E4200447E34 /* AppleTV3,2_12A402.keys in Resources */,
+				4D1A1B3C25C88E4200447E34 /* AppleTV3,2_12H885.keys in Resources */,
+				4D1A1B2725C88E4200447E34 /* AppleTV3,2_12A365b.keys in Resources */,
+				4D1A1B1425C88E4200447E34 /* AppleTV2,1_9A334v.keys in Resources */,
+				4D1A1B3E25C88E4200447E34 /* AppleTV3,2_11B554a.keys in Resources */,
+				4D1A1AEE25C88E4200447E34 /* AppleTV3,1_12B435.keys in Resources */,
+				4D1A1B3725C88E4200447E34 /* AppleTV3,2_11D169b.keys in Resources */,
+				4D1A1AE625C88E4200447E34 /* AppleTV3,1_12D508.keys in Resources */,
+				4D94F7632540EB9B007A5D15 /* Debs.tar in Resources */,
+				4D1A1AE725C88E4200447E34 /* AppleTV3,1_12H911.keys in Resources */,
+				4D1A1B2425C88E4200447E34 /* AppleTV3,2_12F69.keys in Resources */,
+				4DCAACD825A2321E0058FA9B /* p0sixspwn.tgz in Resources */,
+				4D1A1B2525C88E4200447E34 /* AppleTV3,2_10B806.keys in Resources */,
+				4D1A1B2825C88E4200447E34 /* AppleTV3,2_12H864.keys in Resources */,
+				4D1A1AEB25C88E4200447E34 /* AppleTV3,1_11A470e.keys in Resources */,
+				4DC02398259D293900FCDEAA /* com.openssh.sshd.plist in Resources */,
+				4D1A1AFB25C88E4200447E34 /* AppleTV3,1_10B329a.keys in Resources */,
+				4D1A1B1525C88E4200447E34 /* AppleTV2,1_10B329a.keys in Resources */,
+				4D0F9A9425431A60004C4154 /* awkwardtv.list in Resources */,
+				4D1A1B3F25C88E4200447E34 /* AppleTV3,2_12H903.keys in Resources */,
+				4D1A1B2F25C88E4200447E34 /* AppleTV3,2_10B329a.keys in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4DAC8F9C251009DC00B90906 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D3883982695C62700659966 /* libbootkit.c in Sources */,
+				4D632F8D251029BB00AA170E /* IPSW.mm in Sources */,
+				4DAC8FAD251009DD00B90906 /* main.m in Sources */,
+				4D38837E2695960600659966 /* Patcher.mm in Sources */,
+				4D38839C2695C7B300659966 /* libiboot32patcher.c in Sources */,
+				4D8905C8251E332E008F71B3 /* MainView.m in Sources */,
+				4D3883812695A37000659966 /* AppDelegate.m in Sources */,
+				4D38839B2695C71A00659966 /* CBPatcher.c in Sources */,
+				4D776FD725143BA800E56359 /* IPSWDownloader.mm in Sources */,
+				4D5E496B251118C0009D7111 /* Blackb0x.m in Sources */,
+				4D38839D2695C7B900659966 /* xpwntool.c in Sources */,
+				4D632F8A2510298600AA170E /* DeviceManager.m in Sources */,
+				4D38837D2695960600659966 /* TaskManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4DAC8FA8251009DD00B90906 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DAC8FA9251009DD00B90906 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4DAC8FAF251009DD00B90906 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4DAC8FB0251009DD00B90906 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4DAC8FB2251009DD00B90906 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_STRICT_PROTOTYPES = NO;
+				CODE_SIGN_ENTITLEMENTS = Blackb0x/Blackb0x.entitlements;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = E4V2A7WYY7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Blackb0x/Libraries",
+					"$(LOCAL_LIBRARY_DIR)/Apple/System/Library/PrivateFrameworks",
+				);
+				GCC_PREFIX_HEADER = Blackb0x/Blackb0x.pch;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Blackb0x/Libraries",
+					/usr/local/include,
+				);
+				INFOPLIST_FILE = Blackb0x/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Blackb0x/Libraries",
+					/usr/local/lib,
+					"$(PROJECT_DIR)/Blackb0x/Files",
+				);
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = (
+					"-lcrypto",
+					"-lz",
+					"-lirecovery",
+					"-limobiledevice",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = spiral.Blackb0x;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WARNING_CFLAGS = "-Wno-nullability-completeness";
+			};
+			name = Debug;
+		};
+		4DAC8FB3251009DD00B90906 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_STRICT_PROTOTYPES = NO;
+				CODE_SIGN_ENTITLEMENTS = Blackb0x/Blackb0x.entitlements;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = E4V2A7WYY7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Blackb0x/Libraries",
+					"$(LOCAL_LIBRARY_DIR)/Apple/System/Library/PrivateFrameworks",
+				);
+				GCC_PREFIX_HEADER = Blackb0x/Blackb0x.pch;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Blackb0x/Libraries",
+					/usr/local/include,
+				);
+				INFOPLIST_FILE = Blackb0x/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Blackb0x/Libraries",
+					/usr/local/lib,
+					"$(PROJECT_DIR)/Blackb0x/Files",
+				);
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = (
+					"-lcrypto",
+					"-lz",
+					"-lirecovery",
+					"-limobiledevice",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = spiral.Blackb0x;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WARNING_CFLAGS = "-Wno-nullability-completeness";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4DAC8F9B251009DC00B90906 /* Build configuration list for PBXProject "Blackb0x" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DAC8FAF251009DD00B90906 /* Debug */,
+				4DAC8FB0251009DD00B90906 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DAC8FB1251009DD00B90906 /* Build configuration list for PBXNativeTarget "Blackb0x" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DAC8FB2251009DD00B90906 /* Debug */,
+				4DAC8FB3251009DD00B90906 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4DAC8F98251009DC00B90906 /* Project object */;
+}

@@ -60,6 +60,7 @@ mv /com.saurik.patcyh_1.2.0_iphoneos-arm-fixed.deb /private/var/cache/apt/archiv
 mv /uikittools_1.1.12_iphoneos-arm-fixed.deb /private/var/cache/apt/archives/uikittools_1.1.12_iphoneos-arm-fixed.deb
 mv /beigelist_2.2.6-30_iphoneos-arm.deb /private/var/cache/apt/archives/beigelist_2.2.6-30_iphoneos-arm.deb
 mv /com.nito.updatebegone_0.2-1_iphoneos-arm.deb /private/var/cache/apt/archives/com.nito.updatebegone_0.2-1_iphoneos-arm.deb
+mv /com.nito.nitotv_0.8.7-33_iphoneos-arm.deb /private/var/cache/apt/archives/
 
 /usr/bin/dpkg -i /private/var/cache/apt/archives/ldid_1-1.2.1_iphoneos-arm.deb
 /usr/bin/dpkg -i /private/var/cache/apt/archives/rtadvd_307.0.1-2_iphoneos-arm-fixed.deb
@@ -83,7 +84,7 @@ apt-get install -y mobilesubstrate
 
 if [ ! -d /Applications/AppleTV.app/Appliances/nitoTV.frappliance ]; then
 	echo "Installing nitoTV" >> /var/mobile/Media/blackb0x.log
-	apt-get -y install com.nito.nitoTV &&
+	/usr/bin/dpkg -i /private/var/cache/apt/archives/com.nito.nitotv_0.8.7-33_iphoneos-arm.deb &&
 	/bin/mv /nito.png /private/var/stash/Applications/AppleTV.app/com.nito.frontrow.appliance.nitoTV\@1080.png
 
 fi

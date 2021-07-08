@@ -60,8 +60,7 @@ mv /com.saurik.patcyh_1.2.0_iphoneos-arm-fixed.deb /private/var/cache/apt/archiv
 mv /uikittools_1.1.12_iphoneos-arm-fixed.deb /private/var/cache/apt/archives/uikittools_1.1.12_iphoneos-arm-fixed.deb
 mv /beigelist_2.2.6-30_iphoneos-arm.deb /private/var/cache/apt/archives/beigelist_2.2.6-30_iphoneos-arm.deb
 mv /com.nito.updatebegone_0.2-1_iphoneos-arm.deb /private/var/cache/apt/archives/com.nito.updatebegone_0.2-1_iphoneos-arm.deb
-mv /com.nito.nitotv_0.8.7-33_iphoneos-arm.deb /private/var/cache/apt/archives/
-mv /cydia_1.1.30_iphoneos-arm.deb /private/var/cache/apt/archives/
+
 
 /usr/bin/dpkg -i /private/var/cache/apt/archives/ldid_1-1.2.1_iphoneos-arm.deb
 /usr/bin/dpkg -i /private/var/cache/apt/archives/rtadvd_307.0.1-2_iphoneos-arm-fixed.deb
@@ -69,7 +68,6 @@ mv /cydia_1.1.30_iphoneos-arm.deb /private/var/cache/apt/archives/
 /usr/bin/dpkg -i /private/var/cache/apt/archives/sqlite3-lib_3.5.9-2_iphoneos-arm-fixed.deb
 /usr/bin/dpkg -i /private/var/cache/apt/archives/com.saurik.patcyh_1.2.0_iphoneos-arm-fixed.deb
 /usr/bin/dpkg -i /private/var/cache/apt/archives/uikittools_1.1.12_iphoneos-arm-fixed.deb
-/usr/bin/dpkg -i /private/var/cache/apt/archives/cydia_1.1.30_iphoneos-arm.deb
 
 echo "Installing substrate" >> /var/mobile/Media/blackb0x.log
 apt-get install -y mobilesubstrate
@@ -80,13 +78,28 @@ apt-get install -y mobilesubstrate
 
 /usr/bin/apt-get upgrade -y || echo "Upgrade failed" >> /var/mobile/Media/blackb0x.log
 
+echo "Adding replacement default repository" >> /var/mobile/Media/blackb0x.log
+
+if [ -f /etc/apt/sources.list.d/awkward.list ]; then
+echo "AwkwardTV detected. Replacing..." >> /var/mobile/Media/blackb0x.log
+/bin/rm -rf /etc/apt/sources.list.d/awkward.list
+mv /joshtv.list /etc/apt/sources.list.d/
+/usr/bin/apt-key add /pubkey.key
+else
+echo "AwkwardTV doesn't exist. Adding replacement..." >> /var/mobile/Media/blackb0x.log
+mv /joshtv.list /etc/apt/sources.list.d/
+/usr/bin/apt-key add /pubkey.key
+fi
+
+
+
 
 #Install Apps (nitoTV, Kodi)
 #nitoTV and Kodi icons 1080p (Credit: JoshTV)
 
 if [ ! -d /Applications/AppleTV.app/Appliances/nitoTV.frappliance ]; then
 	echo "Installing nitoTV" >> /var/mobile/Media/blackb0x.log
-	/usr/bin/dpkg -i /private/var/cache/apt/archives/com.nito.nitotv_0.8.7-33_iphoneos-arm.deb &&
+	apt-get -y install com.nito.nitoTV
 	/bin/mv /nito.png /private/var/stash/Applications/AppleTV.app/com.nito.frontrow.appliance.nitoTV\@1080.png
 
 fi

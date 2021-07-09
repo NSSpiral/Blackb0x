@@ -7,9 +7,9 @@ Untethered jailbreak tool that runs on modern versions of macOS.
 
 
 Devices supported: 
-- Apple TV 3,2 (A1469) (iOS 8.4.x untethered, iOS 7.x tethered)
-- Apple TV 3,1 (A1427) (iOS 8.4.x untethered, iOS 7.x tethered)
-- Apple TV 2,1 (A1378) (iOS 7.1.2 tethered, iOS 6.1.4 untethered)
+- Apple TV 3,2 (A1469) (tvOS 8.4.x untethered, tvOS 7.x tethered)
+- Apple TV 3,1 (A1427) (tvOS 8.4.x untethered, tvOS 7.x tethered)
+- Apple TV 2,1 (A1378) (tvOS 7.1.2 tethered, tvOS 6.1.4 untethered)
 
 ![Screen Shot 2021-07-07 at 9 49 07 pm](https://user-images.githubusercontent.com/32339783/124758042-8c1de500-df71-11eb-8db3-32a34e2ed3a2.png)
 

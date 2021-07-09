@@ -9,9 +9,7 @@
 /* Begin PBXBuildFile section */
 		4D06D5692555C65E00079DF5 /* kodi.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D06D5672555C65E00079DF5 /* kodi.png */; };
 		4D06D56A2555C65E00079DF5 /* nito.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D06D5682555C65E00079DF5 /* nito.png */; };
-		4D0F9A9025431A60004C4154 /* awkwardtv.gpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D0F9A8A25431A60004C4154 /* awkwardtv.gpg */; };
 		4D0F9A9325431A60004C4154 /* xbmc.list in Resources */ = {isa = PBXBuildFile; fileRef = 4D0F9A8D25431A60004C4154 /* xbmc.list */; };
-		4D0F9A9425431A60004C4154 /* awkwardtv.list in Resources */ = {isa = PBXBuildFile; fileRef = 4D0F9A8E25431A60004C4154 /* awkwardtv.list */; };
 		4D1993FA259B8958002D14FA /* .blackb0x in Resources */ = {isa = PBXBuildFile; fileRef = 4D1993F9259B8958002D14FA /* .blackb0x */; };
 		4D1A1AE625C88E4200447E34 /* AppleTV3,1_12D508.keys in Resources */ = {isa = PBXBuildFile; fileRef = 4D1A1A8825C88E4200447E34 /* AppleTV3,1_12D508.keys */; };
 		4D1A1AE725C88E4200447E34 /* AppleTV3,1_12H911.keys in Resources */ = {isa = PBXBuildFile; fileRef = 4D1A1A8925C88E4200447E34 /* AppleTV3,1_12H911.keys */; };
@@ -115,6 +113,8 @@
 		4D38839C2695C7B300659966 /* libiboot32patcher.c in Sources */ = {isa = PBXBuildFile; fileRef = 4D3883882695C5FC00659966 /* libiboot32patcher.c */; };
 		4D38839D2695C7B900659966 /* xpwntool.c in Sources */ = {isa = PBXBuildFile; fileRef = 4D3883832695C5FC00659966 /* xpwntool.c */; };
 		4D3E5EA82541C68A00577985 /* ATV-Cydia.tgz in Resources */ = {isa = PBXBuildFile; fileRef = 4D3E5EA72541C68A00577985 /* ATV-Cydia.tgz */; };
+		4D45C0082697DE5200F8FFC2 /* joshtv.list in Resources */ = {isa = PBXBuildFile; fileRef = 4D45C0062697DE5200F8FFC2 /* joshtv.list */; };
+		4D45C0092697DE5200F8FFC2 /* pubkey.key in Resources */ = {isa = PBXBuildFile; fileRef = 4D45C0072697DE5200F8FFC2 /* pubkey.key */; };
 		4D59A77125220B800034FC6B /* atv-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D59A77025220B800034FC6B /* atv-icon.png */; };
 		4D5DF5DA255DA45500D7D363 /* fstab.atv in Resources */ = {isa = PBXBuildFile; fileRef = 4D5DF5D9255DA45500D7D363 /* fstab.atv */; };
 		4D5E496B251118C0009D7111 /* Blackb0x.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D5E496A251118C0009D7111 /* Blackb0x.m */; };
@@ -182,10 +182,8 @@
 /* Begin PBXFileReference section */
 		4D06D5672555C65E00079DF5 /* kodi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = kodi.png; path = Blackb0x/Files/kodi.png; sourceTree = SOURCE_ROOT; };
 		4D06D5682555C65E00079DF5 /* nito.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = nito.png; path = Blackb0x/Files/nito.png; sourceTree = SOURCE_ROOT; };
-		4D0F9A8A25431A60004C4154 /* awkwardtv.gpg */ = {isa = PBXFileReference; lastKnownFileType = file; name = awkwardtv.gpg; path = Blackb0x/Files/awkwardtv.gpg; sourceTree = SOURCE_ROOT; };
 		4D0F9A8C25431A60004C4154 /* post-install_script */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "post-install_script"; path = "Blackb0x/Files/post-install_script"; sourceTree = SOURCE_ROOT; };
 		4D0F9A8D25431A60004C4154 /* xbmc.list */ = {isa = PBXFileReference; lastKnownFileType = text; name = xbmc.list; path = Blackb0x/Files/xbmc.list; sourceTree = SOURCE_ROOT; };
-		4D0F9A8E25431A60004C4154 /* awkwardtv.list */ = {isa = PBXFileReference; lastKnownFileType = text; name = awkwardtv.list; path = Blackb0x/Files/awkwardtv.list; sourceTree = SOURCE_ROOT; };
 		4D0F9A8F25431A60004C4154 /* ramdisk_script */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ramdisk_script; path = Blackb0x/Files/ramdisk_script; sourceTree = SOURCE_ROOT; };
 		4D1993F9259B8958002D14FA /* .blackb0x */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = .blackb0x; path = Blackb0x/Files/.blackb0x; sourceTree = SOURCE_ROOT; };
 		4D1A1A8825C88E4200447E34 /* AppleTV3,1_12D508.keys */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "AppleTV3,1_12D508.keys"; sourceTree = "<group>"; };
@@ -301,6 +299,8 @@
 		4D3883952695C62700659966 /* rules.mk */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rules.mk; sourceTree = "<group>"; };
 		4D38839A2695C69500659966 /* libiboot32patcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = libiboot32patcher.h; path = Libraries/libiboot32patcher.h; sourceTree = "<group>"; };
 		4D3E5EA72541C68A00577985 /* ATV-Cydia.tgz */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ATV-Cydia.tgz"; path = "Blackb0x/Files/ATV-Cydia.tgz"; sourceTree = SOURCE_ROOT; };
+		4D45C0062697DE5200F8FFC2 /* joshtv.list */ = {isa = PBXFileReference; lastKnownFileType = file; name = joshtv.list; path = Blackb0x/Files/joshtv.list; sourceTree = SOURCE_ROOT; };
+		4D45C0072697DE5200F8FFC2 /* pubkey.key */ = {isa = PBXFileReference; lastKnownFileType = file; name = pubkey.key; path = Blackb0x/Files/pubkey.key; sourceTree = SOURCE_ROOT; };
 		4D466DDA25F686E000EA1FFB /* libirecovery.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libirecovery.a; path = Blackb0x/Libraries/libirecovery.a; sourceTree = "<group>"; };
 		4D59A77025220B800034FC6B /* atv-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "atv-icon.png"; sourceTree = "<group>"; };
 		4D5DF5D9255DA45500D7D363 /* fstab.atv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = fstab.atv; path = Blackb0x/Files/fstab.atv; sourceTree = SOURCE_ROOT; };
@@ -532,12 +532,12 @@
 				4DFEFE89254A26890092FF6E /* launchd */,
 				4D06D5672555C65E00079DF5 /* kodi.png */,
 				4D06D5682555C65E00079DF5 /* nito.png */,
-				4D0F9A8E25431A60004C4154 /* awkwardtv.list */,
-				4D0F9A8A25431A60004C4154 /* awkwardtv.gpg */,
 				4DCAACD725A2321E0058FA9B /* p0sixspwn.tgz */,
 				4D0F9A8C25431A60004C4154 /* post-install_script */,
 				4D0F9A8F25431A60004C4154 /* ramdisk_script */,
 				4D0F9A8D25431A60004C4154 /* xbmc.list */,
+				4D45C0062697DE5200F8FFC2 /* joshtv.list */,
+				4D45C0072697DE5200F8FFC2 /* pubkey.key */,
 				4D3E5EA72541C68A00577985 /* ATV-Cydia.tgz */,
 				4D94F75F2540EB9B007A5D15 /* Debs.tar */,
 				4D94F75D2540EB9B007A5D15 /* RamdiskBins.tar */,
@@ -749,7 +749,6 @@
 				4D1A1B3525C88E4200447E34 /* AppleTV3,2_12H876.keys in Resources */,
 				4DAC8FAA251009DD00B90906 /* MainMenu.xib in Resources */,
 				4D1A1AFD25C88E4200447E34 /* AppleTV3,1_12H847.keys in Resources */,
-				4D0F9A9025431A60004C4154 /* awkwardtv.gpg in Resources */,
 				4D59A77125220B800034FC6B /* atv-icon.png in Resources */,
 				4D1A1AF125C88E4200447E34 /* AppleTV3,1_11D169b.keys in Resources */,
 				4D1A1B0B25C88E4200447E34 /* AppleTV2,1_11D169b.keys in Resources */,
@@ -773,6 +772,7 @@
 				4D1A1B1825C88E4200447E34 /* AppleTV2,1_9B179b.keys in Resources */,
 				4D1A1B3D25C88E4200447E34 /* AppleTV3,2_12H606.keys in Resources */,
 				4D1A1AF925C88E4200447E34 /* AppleTV3,1_12H606.keys in Resources */,
+				4D45C0082697DE5200F8FFC2 /* joshtv.list in Resources */,
 				4D1A1B0825C88E4200447E34 /* AppleTV2,1_11B554a.keys in Resources */,
 				4D71C7C5258680E00003EAC6 /* remote.png in Resources */,
 				4D1A1B3325C88E4200447E34 /* AppleTV3,2_12D508.keys in Resources */,
@@ -804,7 +804,7 @@
 				4DC02398259D293900FCDEAA /* com.openssh.sshd.plist in Resources */,
 				4D1A1AFB25C88E4200447E34 /* AppleTV3,1_10B329a.keys in Resources */,
 				4D1A1B1525C88E4200447E34 /* AppleTV2,1_10B329a.keys in Resources */,
-				4D0F9A9425431A60004C4154 /* awkwardtv.list in Resources */,
+				4D45C0092697DE5200F8FFC2 /* pubkey.key in Resources */,
 				4D1A1B3F25C88E4200447E34 /* AppleTV3,2_12H903.keys in Resources */,
 				4D1A1B2F25C88E4200447E34 /* AppleTV3,2_10B329a.keys in Resources */,
 			);

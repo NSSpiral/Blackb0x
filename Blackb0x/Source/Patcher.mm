@@ -493,8 +493,8 @@
         [self moveFileFromBundle:@"nito" fileType:@"png"];
         
         //Repos
-        [self moveFileFromBundle:@"awkwardtv" fileType:@"list"];
-        [self moveFileFromBundle:@"awkwardtv" fileType:@"gpg"];
+        [self moveFileFromBundle:@"joshtv" fileType:@"list"];
+        [self moveFileFromBundle:@"pubkey" fileType:@"key"];
         [self moveFileFromBundle:@"xbmc" fileType:@"list"];
         
     }

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="15702" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
     <dependencies>
+        <deployment identifier="macosx"/>
         <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="15702"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -697,7 +698,7 @@
                                 <rect key="frame" x="361" y="316" width="249" height="25"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <textFieldCell key="cell" lineBreakMode="clipping" borderStyle="bezel" alignment="center" title="Please connect an Apple TV" bezelStyle="round" id="MkE-bK-0NO">
-                                    <font key="font" metaFont="menuBar"/>
+                                    <font key="font" metaFont="menu" size="14"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
@@ -724,19 +725,6 @@
                             </button>
                         </subviews>
                     </visualEffectView>
-                    <switch hidden="YES" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" baseWritingDirection="leftToRight" alignment="left" translatesAutoresizingMaskIntoConstraints="NO" id="8m9-cp-sTZ">
-                        <rect key="frame" x="750" y="111" width="42" height="24"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </switch>
-                    <textField hidden="YES" horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="F4y-Cc-tFc">
-                        <rect key="frame" x="703" y="142" width="136" height="16"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                        <textFieldCell key="cell" lineBreakMode="clipping" title="Install ATV2/3 Devkit" id="kUr-zC-p5k">
-                            <font key="font" metaFont="system"/>
-                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
-                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
-                        </textFieldCell>
-                    </textField>
                     <progressIndicator hidden="YES" wantsLayer="YES" fixedFrame="YES" maxValue="100" doubleValue="50" style="bar" translatesAutoresizingMaskIntoConstraints="NO" id="7yw-rr-JtW">
                         <rect key="frame" x="427" y="175" width="100" height="20"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
@@ -805,7 +793,6 @@
                 </subviews>
                 <connections>
                     <outlet property="boot_button" destination="Dqh-fg-Zke" id="RsI-uY-0KU"/>
-                    <outlet property="devkit" destination="8m9-cp-sTZ" id="kZd-Z8-CqM"/>
                     <outlet property="jb_button" destination="Mci-1D-Zrt" id="3MT-rk-90l"/>
                     <outlet property="progress1" destination="7yw-rr-JtW" id="mIq-GV-iAJ"/>
                     <outlet property="progress2" destination="cL1-NS-rui" id="ddH-yx-gVd"/>

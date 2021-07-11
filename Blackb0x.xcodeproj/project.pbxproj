@@ -299,8 +299,8 @@
 		4D3883952695C62700659966 /* rules.mk */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rules.mk; sourceTree = "<group>"; };
 		4D38839A2695C69500659966 /* libiboot32patcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = libiboot32patcher.h; path = Libraries/libiboot32patcher.h; sourceTree = "<group>"; };
 		4D3E5EA72541C68A00577985 /* ATV-Cydia.tgz */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ATV-Cydia.tgz"; path = "Blackb0x/Files/ATV-Cydia.tgz"; sourceTree = SOURCE_ROOT; };
-		4D45C0062697DE5200F8FFC2 /* joshtv.list */ = {isa = PBXFileReference; lastKnownFileType = file; name = joshtv.list; path = Blackb0x/Files/joshtv.list; sourceTree = SOURCE_ROOT; };
-		4D45C0072697DE5200F8FFC2 /* pubkey.key */ = {isa = PBXFileReference; lastKnownFileType = file; name = pubkey.key; path = Blackb0x/Files/pubkey.key; sourceTree = SOURCE_ROOT; };
+		4D45C0062697DE5200F8FFC2 /* joshtv.list */ = {isa = PBXFileReference; lastKnownFileType = text; name = joshtv.list; path = Blackb0x/Files/joshtv.list; sourceTree = SOURCE_ROOT; };
+		4D45C0072697DE5200F8FFC2 /* pubkey.key */ = {isa = PBXFileReference; lastKnownFileType = text; name = pubkey.key; path = Blackb0x/Files/pubkey.key; sourceTree = SOURCE_ROOT; };
 		4D466DDA25F686E000EA1FFB /* libirecovery.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libirecovery.a; path = Blackb0x/Libraries/libirecovery.a; sourceTree = "<group>"; };
 		4D59A77025220B800034FC6B /* atv-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "atv-icon.png"; sourceTree = "<group>"; };
 		4D5DF5D9255DA45500D7D363 /* fstab.atv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = fstab.atv; path = Blackb0x/Files/fstab.atv; sourceTree = SOURCE_ROOT; };
@@ -992,6 +992,7 @@
 					/usr/local/lib,
 					"$(PROJECT_DIR)/Blackb0x/Files",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				OTHER_CFLAGS = "";
 				OTHER_LDFLAGS = (
 					"-lcrypto",
@@ -1041,6 +1042,7 @@
 					/usr/local/lib,
 					"$(PROJECT_DIR)/Blackb0x/Files",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				OTHER_CFLAGS = "";
 				OTHER_LDFLAGS = (
 					"-lcrypto",

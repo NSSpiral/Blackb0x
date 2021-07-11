@@ -19,7 +19,7 @@ Make sure your device is connected to the internet for the first boot. Do not tu
 Steps to Jailbreak: 
 
 0. (3,1 Only) PWN with arduino+synackuk's fork of checkm8-A5
-1. Plug in your Apple TV via micro-USB
+1. Plug in your Apple TV via micro-USB **AND** the power cable.
 2. Open Blackb0x
 3. Click Jailbreak.
 4. Follow instructions to enter DFU mode

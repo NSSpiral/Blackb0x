@@ -82,11 +82,18 @@
                               popupSize.width, popupSize.height);
 
     if(_dfuHelper == nil) {
+        if (@available(macOS 10.13, *)) {
         _dfuHelper = [[NSWindow alloc] initWithContentRect:frame
                                                  styleMask:NSWindowStyleMaskFullSizeContentView
                                                    backing:NSBackingStoreBuffered
                                                      defer:NO];
-        
+        }
+        else {
+        _dfuHelper = [[NSWindow alloc] initWithContentRect:frame
+                                                 styleMask:NSWindowStyleMaskTexturedBackground
+                                                   backing:NSBackingStoreBuffered
+                                                     defer:NO];
+        }
         [_dfuHelper setReleasedWhenClosed:NO];
         [_dfuHelper setLevel:NSPopUpMenuWindowLevel];
         [_dfuHelper setOpaque:NO];
@@ -123,7 +130,12 @@
         
         NSProgressIndicator *progress = [[NSProgressIndicator alloc] initWithFrame:NSMakeRect(instructionsFrame.origin.x + instructionsFrame.size.width / 2 - 10,
                                                                                               popupSize.height * 0.2 - 10, 20, 20)];
-        progress.style = NSProgressIndicatorStyleSpinning;
+        if (@available(macOS 10.14, *)) {
+            progress.style = NSProgressIndicatorStyleSpinning;
+        }
+        else {
+            progress.style = NSProgressIndicatorSpinningStyle;
+        }
         [_dfuHelper.contentView addSubview:progress];
         [progress startAnimation:nil];
             
@@ -137,7 +149,14 @@
     
         [_dfuHelper.contentView addSubview: myButton];
         [myButton setTitle: @"Cancel"];
-        [myButton setBezelStyle:NSBezelStyleRounded];
+        
+        if (@available(macOS 10.14, *)) {
+            [myButton setBezelStyle:NSBezelStyleRounded];
+        }
+        else {
+            [myButton setBezelStyle:NSRoundedBezelStyle];
+        }
+        
         [myButton setTarget:self];
         [myButton setAction:@selector(popupClose)];
         

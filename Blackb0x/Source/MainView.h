@@ -33,8 +33,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (weak) IBOutlet NSTextField *select_device;
 
-@property (weak) IBOutlet NSSwitch *devkit;
-
 @property (weak) IBOutlet NSButton *jb_button;
 @property (weak) IBOutlet NSButton *boot_button;
 

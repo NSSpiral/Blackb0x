@@ -91,7 +91,7 @@ using namespace std;
     
     [dataTask resume];
     
-    return dataTask.progress;
+    return nil;//dataTask.progress;
 }
 
 - (NSDictionary *) keysForDevice:(NSString *) device buildID:(NSString *) buildID  {

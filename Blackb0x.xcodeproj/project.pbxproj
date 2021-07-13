@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 47;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -115,6 +115,8 @@
 		4D3E5EA82541C68A00577985 /* ATV-Cydia.tgz in Resources */ = {isa = PBXBuildFile; fileRef = 4D3E5EA72541C68A00577985 /* ATV-Cydia.tgz */; };
 		4D45C0082697DE5200F8FFC2 /* joshtv.list in Resources */ = {isa = PBXBuildFile; fileRef = 4D45C0062697DE5200F8FFC2 /* joshtv.list */; };
 		4D45C0092697DE5200F8FFC2 /* pubkey.key in Resources */ = {isa = PBXBuildFile; fileRef = 4D45C0072697DE5200F8FFC2 /* pubkey.key */; };
+		4D47720C269C9BE300A96412 /* libssl.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 4D94F7682540EF8E007A5D15 /* libssl.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		4D47720D269C9C0F00A96412 /* libzip.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 4D94F7692540EF8E007A5D15 /* libzip.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		4D59A77125220B800034FC6B /* atv-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D59A77025220B800034FC6B /* atv-icon.png */; };
 		4D5DF5DA255DA45500D7D363 /* fstab.atv in Resources */ = {isa = PBXBuildFile; fileRef = 4D5DF5D9255DA45500D7D363 /* fstab.atv */; };
 		4D5E496B251118C0009D7111 /* Blackb0x.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D5E496A251118C0009D7111 /* Blackb0x.m */; };
@@ -140,9 +142,7 @@
 		4D94F7822540EFE5007A5D15 /* libcurl.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 4D94F76D2540EF8E007A5D15 /* libcurl.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		4D94F7832540EFE6007A5D15 /* libfragmentzip.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 4D94F7702540EF8E007A5D15 /* libfragmentzip.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		4D94F7862540EFEA007A5D15 /* libplist.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 4D94F76E2540EF8E007A5D15 /* libplist.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		4D94F7872540EFEB007A5D15 /* libssl.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 4D94F7682540EF8E007A5D15 /* libssl.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		4D94F7882540EFED007A5D15 /* libusbmuxd.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 4D94F76A2540EF8E007A5D15 /* libusbmuxd.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		4D94F7892540EFEE007A5D15 /* libzip.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 4D94F7692540EF8E007A5D15 /* libzip.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		4DAA7B8F2653346300956125 /* libirecovery.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DB1CAC526524765006B560E /* libirecovery.3.dylib */; };
 		4DAA7B902653346300956125 /* libirecovery.3.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 4DB1CAC526524765006B560E /* libirecovery.3.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		4DAA7B912653346B00956125 /* libirecovery.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D466DDA25F686E000EA1FFB /* libirecovery.a */; };
@@ -165,13 +165,13 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				4D94F7892540EFEE007A5D15 /* libzip.dylib in Embed Libraries */,
+				4D47720D269C9C0F00A96412 /* libzip.dylib in Embed Libraries */,
 				4D94F7882540EFED007A5D15 /* libusbmuxd.dylib in Embed Libraries */,
 				4D94F7822540EFE5007A5D15 /* libcurl.dylib in Embed Libraries */,
 				4D94F7812540EFE4007A5D15 /* libcrypto.dylib in Embed Libraries */,
 				4D94F7832540EFE6007A5D15 /* libfragmentzip.dylib in Embed Libraries */,
-				4D94F7872540EFEB007A5D15 /* libssl.dylib in Embed Libraries */,
 				4DAA7B902653346300956125 /* libirecovery.3.dylib in Embed Libraries */,
+				4D47720C269C9BE300A96412 /* libssl.dylib in Embed Libraries */,
 				4D94F7862540EFEA007A5D15 /* libplist.dylib in Embed Libraries */,
 			);
 			name = "Embed Libraries";
@@ -665,11 +665,13 @@
 				TargetAttributes = {
 					4DAC8F9F251009DC00B90906 = {
 						CreatedOnToolsVersion = 11.3;
+						DevelopmentTeam = E4V2A7WYY7;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
 			buildConfigurationList = 4DAC8F9B251009DC00B90906 /* Build configuration list for PBXProject "Blackb0x" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 6.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -982,10 +984,7 @@
 					/usr/local/include,
 				);
 				INFOPLIST_FILE = Blackb0x/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Blackb0x/Libraries",
@@ -1032,10 +1031,7 @@
 					/usr/local/include,
 				);
 				INFOPLIST_FILE = Blackb0x/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Blackb0x/Libraries",

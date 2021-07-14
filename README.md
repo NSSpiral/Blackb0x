@@ -3,7 +3,7 @@
  Apple TV 2/3 Jailbreak
 
 
-Untethered jailbreak tool that runs on modern versions of macOS.
+Untethered jailbreak tool that runs on modern versions of macOS (10.11+). 
 
 
 Devices supported: 
@@ -20,7 +20,7 @@ Make sure your device is connected to the internet for the first boot. Do not tu
 
 0. (3,1 Only) PWN with Arduino + [synackuk's fork of checkm8-A5](https://github.com/synackuk/checkm8-a5)
 1. Plug in your Apple TV via micro-USB **AND** plug in the power cable.
-2. Open Blackb0x
+2. Open Blackb0x - Right click Blackb0x.app then click Open *(Important)*
 3. Click Jailbreak.
 4. Follow instructions to enter DFU mode
 5. Once Jailbreak has finished installing connect to your tv and wait 5-10 minutes until Kodi appears (Be patient, go have a coffee).

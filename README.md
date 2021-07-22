@@ -1,6 +1,6 @@
 
 # Blackb0x
- Apple TV 2/3 Jailbreak
+ Apple TV 2/3 Jailbreak [Download here](https://github.com/NSSpiral/Blackb0x/releases)
 
 
 Untethered jailbreak tool that runs on modern versions of macOS (10.11+). 

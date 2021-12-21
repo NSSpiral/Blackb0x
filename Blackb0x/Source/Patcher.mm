@@ -104,7 +104,7 @@
 
 - (void) loadKeysForDevice:(NSString *) deviceID buildID:(NSString *) buildID {
     
-    printf("Finding firmware keys for %s, %s", [deviceID UTF8String], [buildID UTF8String]);
+    printf("Finding firmware keys for %s, %s\n", [deviceID UTF8String], [buildID UTF8String]);
     
     self.keys = [_ipsw_fetcher keysForDevice:deviceID buildID:buildID];
     

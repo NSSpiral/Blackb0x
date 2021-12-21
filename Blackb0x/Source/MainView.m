@@ -405,6 +405,7 @@ NSComboBox *comboBox;
                         self.select_device.stringValue = @"Downloading firmware components...";
                     });
 
+                    
                     NSColor *patchColor = [NSColor colorWithRed:0.8 green:0.2 blue:0.0 alpha:1.0];
                     [ipsw_fetcher downloadComponent:iBSS withCompletion:^(NSString *file, int slot) {
                         printf("iBSS downloaded - %s\n", [file UTF8String]);

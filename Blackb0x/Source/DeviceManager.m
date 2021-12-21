@@ -44,7 +44,7 @@
     icon.udid = udid;
     
     icon.pwnedDFU = -1;
-    icon.jailbroken = -1;
+    icon.jailbroken = 0;
     icon.jailbreakRunning = -1;
     icon.needsPostInstall = 1;
     icon.waitForRecovery = 0;

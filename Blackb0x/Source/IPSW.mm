@@ -41,11 +41,22 @@ using namespace std;
                               NSUserName(),
                               [[_URL lastPathComponent] stringByDeletingPathExtension],
                               componentName];
-    
+    /*
     if([[NSFileManager defaultManager] fileExistsAtPath:fileLocation]) {
         printf("File exists, no need to download.\n");
         completionBlock(fileLocation, -1);
         return;
+    }
+    */
+    
+    BOOL fileExists = NO;
+    
+    if([[NSFileManager defaultManager] fileExistsAtPath:fileLocation]) {
+        printf("File exists, no need to download.\n");
+        fileExists = YES;
+        
+        //completionBlock(fileLocation, -1);
+        //return;
     }
     
     __block FragmentDownloader *dl;
@@ -54,15 +65,16 @@ using namespace std;
         dl.componentName = componentName;
 
         dispatch_async(dispatch_get_global_queue( DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^(void){
-
-            [dl downloadComponent:componentName];
+            if(fileExists == NO) {
+                [dl downloadComponent:componentName];
+            }
 
             int slot = [FragmentDownloader downloadNumberForComponent:componentName];
             NSString *path = [NSString stringWithFormat:@"%@/%@", dl.ipsw_folder, componentName];
             
             printf("Downloaded %s on slot %i\n", [componentName UTF8String], slot);
             
-            dl.componentName = nil;
+            if([componentName isEqual:@"BuildManifest.plist"]) dl.componentName = nil;
             
             if([[NSFileManager defaultManager] fileExistsAtPath:path]) completionBlock(path, slot);
             else completionBlock(nil, slot);

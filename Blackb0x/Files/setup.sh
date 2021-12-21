@@ -104,8 +104,8 @@ apt-get install -f -y
 
 if [ ! -d /Applications/Kodi.frappliance ]; then
 	echo "Installing Kodi" >> /var/mobile/Media/blackb0x.log
-	apt-get -y --force-yes install org.xbmc.kodi-atv2 && 
-	/bin/mv /kodi.png /private/var/stash/Applications/AppleTV.app/com.apple.frontrow.appliance.kodi\@1080.png
+	/bin/mv /kodi.png /private/var/stash/Applications/AppleTV.app/com.apple.frontrow.appliance.kodi\@1080.png &&
+	apt-get -y --force-yes install org.xbmc.kodi-atv2
 fi
 
 

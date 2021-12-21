@@ -91,7 +91,7 @@ apt-get install -f -y
 #Install Apps (nitoTV, Kodi)
 #nitoTV and Kodi icons 1080p (Credit: JoshTV)
 
-if [ ! -d /Applications/AppleTV.app/Appliances/nitoTV.frappliance ]; then
+#if [ ! -d /Applications/AppleTV.app/Appliances/nitoTV.frappliance ]; then
 	#echo "Installing nitoTV" >> /var/mobile/Media/blackb0x.log
 	#apt-get -y install com.nito.nitoTV
 	#/bin/mv /nito.png /private/var/stash/Applications/AppleTV.app/com.nito.frontrow.appliance.nitoTV\@1080.png
@@ -100,7 +100,7 @@ if [ ! -d /Applications/AppleTV.app/Appliances/nitoTV.frappliance ]; then
     #    killall -9 backboardd
     #fi
 
-fi
+#fi
 
 if [ ! -d /Applications/Kodi.frappliance ]; then
 	echo "Installing Kodi" >> /var/mobile/Media/blackb0x.log

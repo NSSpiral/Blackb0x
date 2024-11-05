@@ -24,6 +24,15 @@ Make sure your device is connected to the internet for the first boot. Do not tu
 3. Click Jailbreak.
 4. Follow instructions to enter DFU mode
 5. Once Jailbreak has finished installing connect to your tv and wait 5-10 minutes until Kodi appears (Be patient, go have a coffee).
+6. If Kodi does not appear force install it:
+   ```
+   ssh -oHostKeyAlgorithms=+ssh-rsa root@apple-tv.local
+   ```
+7. The password is `alpine`
+   ```
+   apt-get -y --force-yes install org.xbmc.kodi-atv2
+   ```
+
 
 <br>
 

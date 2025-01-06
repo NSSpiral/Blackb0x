@@ -27,6 +27,13 @@ Make sure your device is connected to the internet for the first boot. Do not tu
 
 <br>
 
+## SSH Access
+
+To connect via SSH run: `ssh -oHostKeyAlgorithms=+ssh-rsa root@enter.ip.here`
+Password: `alpine`
+
+<br>
+
 ## Credits
 **nyan_satan**
 * libbootkit (iBSS loader for AppleTV3,2)
